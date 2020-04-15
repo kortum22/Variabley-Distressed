@@ -347,6 +347,8 @@ Error message and password prompt
 
 <li>$:/core/modules/parsers/wikiparser/rules/wikilink.js</li>
 
+<li>$:/core/ui/SideBar/Tools</li>
+
 <li>$:/DefaultTiddlers</li>
 
 <li>$:/fullscreen-editor</li>
@@ -10672,6 +10674,37 @@ if(n&gt;-1) {
 })();
 </pre>
 </div>
+<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20200415225449045" creator="kk" modified="20200415225449045" modifier="kk" title="$:/core/ui/SideBar/Tools">
+<pre>\define lingo-base() $:/language/ControlPanel/
+\define config-title()
+$:/config/PageControlButtons/Visibility/$(listItem)$
+\end
+
+&lt;&lt;lingo Basics/Version/Prompt&gt;&gt; &lt;&lt;version&gt;&gt;
+
+&lt;$set name=&quot;tv-config-toolbar-icons&quot; value=&quot;yes&quot;&gt;
+
+&lt;$set name=&quot;tv-config-toolbar-text&quot; value=&quot;yes&quot;&gt;
+
+&lt;$set name=&quot;tv-config-toolbar-class&quot; value=&quot;&quot;&gt;
+
+&lt;$list filter=&quot;[all[shadows+tiddlers]tag[$:/tags/PageControls]!has[draft.of]]&quot; variable=&quot;listItem&quot;&gt;
+
+&lt;div style=&quot;position:relative;&quot; class={{{ [&lt;listItem&gt;encodeuricomponent[]addprefix[tc-btn-]] }}}&gt;
+
+&lt;$checkbox tiddler=&lt;&lt;config-title&gt;&gt; field=&quot;text&quot; checked=&quot;show&quot; unchecked=&quot;hide&quot; default=&quot;show&quot;/&gt; &lt;$transclude tiddler=&lt;&lt;listItem&gt;&gt;/&gt; &lt;i class=&quot;tc-muted&quot;&gt;&lt;$transclude tiddler=&lt;&lt;listItem&gt;&gt; field=&quot;description&quot;/&gt;&lt;/i&gt;
+
+&lt;/div&gt;
+
+&lt;/$list&gt;
+
+&lt;/$set&gt;
+
+&lt;/$set&gt;
+
+&lt;/$set&gt;
+</pre>
+</div>
 <div created="20200106211749103" creator="kk" modified="20200415222501091" modifier="kk" tags="tb" title="$:/DefaultTiddlers">
 <pre>[tag[Journal]!sort[created]limit[2]]
 
@@ -12414,7 +12447,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div created="20200415224915720" creator="kk" list="$:/config/DefaultSidebarTab recent [[15th April 2020]] [[14th April 2020]] [[And So It Begins]]" modified="20200415225302948" modifier="kk" title="$:/StoryList">
+<div created="20200415224915720" creator="kk" list="$:/core/ui/SideBarLists $:/core/ui/SideBar/Tools $:/config/DefaultSidebarTab $:/core/ui/SideBar/Recent recent [[15th April 2020]] [[14th April 2020]] [[And So It Begins]]" modified="20200415225430645" modifier="kk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -12429,8 +12462,8 @@ html body.tc-body {
 <div created="20200127144249151" list="$:/.giffmex/ViewToolbar/new-note-here $:/.giffmex/ViewToolbar/new-note-here-datetime $:/.giffmex/viewtoolbar/viewrefs $:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/info $:/core/ui/Buttons/new-here $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/edit $:/core/ui/Buttons/delete $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/core/ui/Buttons/close $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold" modified="20200304200401109" tags="tb" title="$:/tags/ViewToolbar">
 <pre></pre>
 </div>
-<div created="20200415162025938" creator="kk" modified="20200415225327933" modifier="kk" title="$:/temp/advancedsearch">
-<pre></pre>
+<div created="20200415162025938" creator="kk" modified="20200415225355618" modifier="kk" title="$:/temp/advancedsearch">
+<pre>sidebar</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{

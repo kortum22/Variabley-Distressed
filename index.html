@@ -667,6 +667,8 @@ Error message and password prompt
 
 <li>TiddlyBlink</li>
 
+<li>TiddlyBlink home</li>
+
 <li>Vitamins</li>
 
 <li>Workouts</li>
@@ -922,7 +924,7 @@ with
 *The blue clock button in the sidebar activates $:/.giffmex/buttons/newnote-datetime . This is set up to create a new tiddler with a date and timestamp in the title.
 *Clicking on a checkmark in the ~TiddlyBlink tab tags one of three tiddlers ($:/.giffmex/ViewTemplate/refscontext, $:/.giffmex/ViewTemplate/refslinks, $:/.giffmex/ViewTemplate/refstranscludeclean and $:/.giffmex/ViewTemplate/refstranscludecollapse) with the tag ~$:/tags/ViewTemplate, making them show up under the tiddler. Those three tiddlers grab all the text references to the current tiddler, and format them into either links, transclusions, or highlighted search results in context. The latter uses the [[ContextPlugin|$:/plugins/danielo515/ContextPlugin]]. </pre>
 </div>
-<div created="20190624061203012" creator="Gloom" modified="20200415003648920" modifier="kk" purposedesc="text edit box for Show tiddler sidebar" tags="tb" title="$:/.giffmex/sidebar/parallel" type="application/x-tiddler">
+<div created="20190624061203012" creator="Gloom" modified="20200304195303860" modifier="Gloom" purposedesc="text edit box for Show tiddler sidebar" tags="tb #template $:/.giffmex/sidebar/parallel2" title="$:/.giffmex/sidebar/parallel" type="application/x-tiddler">
 <pre>Paste a tiddler title to view tiddler in tab: &lt;$edit-text tiddler=&quot;$:/temp/sbartidddisplayvalue&quot; placeholder=&quot;tiddler title&quot; tag=&quot;input&quot; type=&quot;text&quot;/&gt;</pre>
 </div>
 <div caption="parallel" created="20190624061500276" creator="Gloom" infodesc="For temporarily displaying a tiddler in the sidebar (without having to tag it). Type the tiddler title in the text field and tiddler will sidpay below it." modified="20200304195325476" modifier="Gloom" tags="tb $:/tags/SideBar *sidebar" title="$:/.giffmex/sidebar/parallel2" tooltip="For temporarily displaying a tiddler in the sidebar (without having to tag it)" type="application/x-tiddler">
@@ -962,7 +964,7 @@ Click here: {{$:/core/ui/Buttons/palette}}
 
 &lt;/span&gt;</pre>
 </div>
-<div caption="search results in context" created="20200102141715979" creator="kk" modified="20200415151030712" modifier="kk" tags="refs tb $:/tags/ViewTemplate" title="$:/.giffmex/ViewTemplate/refscontext">
+<div caption="search results in context" created="20200102141715979" modified="20200304195344624" tags="tb refs" title="$:/.giffmex/ViewTemplate/refscontext">
 <pre>\define mycrit() (?i)\b$(searchspx)$\b
 
 &lt;hr&gt;References: 
@@ -973,7 +975,7 @@ Click here: {{$:/core/ui/Buttons/palette}}
 &lt;/$vars&gt;
 </pre>
 </div>
-<div caption="links" created="20200126143031898" creator="kk" modified="20200415150925232" modifier="kk" tags="refs tb" title="$:/.giffmex/ViewTemplate/refslinks">
+<div caption="links" created="20200126143031898" modified="20200304195352126" tags="tb refs $:/tags/ViewTemplate" title="$:/.giffmex/ViewTemplate/refslinks">
 <pre>\define mycrit() (?i)\b$(searchspx)$\b
 
 &lt;hr&gt;References: 
@@ -984,7 +986,7 @@ Click here: {{$:/core/ui/Buttons/palette}}
 &lt;/$vars&gt;
 </pre>
 </div>
-<div caption="simple transclusion" created="20200126142157739" creator="kk" modified="20200415151030711" modifier="kk" tags="refs tb" title="$:/.giffmex/ViewTemplate/refstranscludeclean">
+<div caption="simple transclusion" created="20200126142157739" modified="20200304195401578" tags="tb refs" title="$:/.giffmex/ViewTemplate/refstranscludeclean">
 <pre>&lt;hr&gt;
 
 References: &lt;br&gt;
@@ -1095,7 +1097,7 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 
 &lt;/$reveal&gt;</pre>
 </div>
-<div caption="{{$:/core/images/options-button}}" created="20200129233103456" creator="kk" modified="20200415003355145" modifier="kk" tags="tb" title="$:/.giffmex/ViewToolbar/viewrefscheckboxes">
+<div caption="{{$:/core/images/options-button}}" created="20200129233103456" modified="20200304195517765" tags="tb $:/tags/ViewToolbar refview" title="$:/.giffmex/ViewToolbar/viewrefscheckboxes">
 <pre>\define tagreset() 
 &lt;$list filter=&quot;[tag[refs]sort[created]] -[[$(currentTiddler)$]]&quot; variable=&quot;removeme&quot;&gt;
 &lt;$action-listops  $tiddler=&lt;&lt;removeme&gt;&gt; $tags=&quot;+[remove[$:/tags/ViewTemplate]]&quot;/&gt;
@@ -1200,8 +1202,8 @@ placeholder=&quot;$placeholder$&quot;/&gt;
 <div created="20200414201449112" creator="kk" modified="20200414201504837" modifier="kk" title="$:/config/NewJournal/Text">
 <pre></pre>
 </div>
-<div created="20191225174624729" creator="kk" modified="20200414201416371" modifier="kk" tags="tb" title="$:/config/NewJournal/Title">
-<pre>DDth MMM YYYY</pre>
+<div created="20191225174624729" modified="20200304195553439" tags="tb" title="$:/config/NewJournal/Title">
+<pre>YYYY-0MM / 0DD / 0hh:0mm:0ss /</pre>
 </div>
 <div created="20200414201109179" creator="kk" modified="20200415143741010" modifier="kk" title="$:/config/PageControlButtons/Visibility/$:/.giffmex/buttons/newnote-datetime">
 <pre>hide</pre>
@@ -10508,10 +10510,11 @@ if(n&gt;-1) {
 })();
 </pre>
 </div>
-<div created="20200106211749103" creator="kk" modified="20200414201506616" modifier="kk" tags="tb" title="$:/DefaultTiddlers">
-<pre>[!is[system]!sort[created]limit[3]]</pre>
+<div created="20200106211749103" modified="20200304200121375" tags="tb" title="$:/DefaultTiddlers">
+<pre>[[TiddlyBlink home]]
+</pre>
 </div>
-<div created="20200304200133691" list="[[2019 Top Tens]] $:/jd/fullscreen-editor/EditButton $:/.giffmex/ViewToolbar/new-note-here-datetime $:/.giffmex/ViewTemplate/refscontext TiddlyBlink" modified="20200304200135317" tags="tb" title="$:/fullscreen-editor">
+<div created="20200304200133691" list="$:/jd/fullscreen-editor/EditButton $:/.giffmex/ViewToolbar/new-note-here-datetime $:/.giffmex/ViewTemplate/refscontext TiddlyBlink" modified="20200304200135317" tags="tb" title="$:/fullscreen-editor">
 <pre></pre>
 </div>
 <div created="20200411025115124" modified="20200411025116714" title="$:/GitHub/Filename">
@@ -10569,11 +10572,6 @@ if(n&gt;-1) {
 # [[$:/fullscreen-editor]]
 # [[$:/palettes/TiddlyBlink]]
 # [[$:/plugins/danielo515/context/css]]
-# [[$:/plugins/danielo515/ContextPlugin]]
-# [[$:/plugins/flibbles/relink]]
-# [[$:/plugins/jd/fullscreen-editor]]
-# [[$:/plugins/sk/WhiteList]]
-# [[$:/plugins/snowgoon88/edit-comptext]]
 # [[TiddlyBlink]]
 # [[TiddlyBlink home]]</pre>
 </div>
@@ -10596,8 +10594,8 @@ if(n&gt;-1) {
 &lt;/$button&gt;
 &lt;/$navigator&gt;</pre>
 </div>
-<div created="20200228210954683" creator="kk" modified="20200415001428775" modifier="kk" tags="tb" title="$:/palette">
-<pre>$:/palettes/TIV</pre>
+<div created="20200228210954683" modified="20200304200152865" tags="tb" title="$:/palette">
+<pre>$:/palettes/TiddlyBlink</pre>
 </div>
 <div created="20200411235618557" description="A clean white palette to let you focus" modified="20200411235859665" name="Blanca" tags="$:/tags/Palette" title="$:/palettes/Blanca" type="application/x-tiddler-dictionary">
 <pre>alert-background: #ffe476
@@ -10982,7 +10980,7 @@ very-muted-foreground: #93A3B1</pre>
     }
 }</pre>
 </div>
-<div created="20140530174219263" creator="kk" modified="20200415003634163" modifier="kk" tags="tb" title="$:/plugins/danielo515/ContextPlugin/Caption" type="text/vnd.tiddlywiki">
+<div created="20140530174219263" modified="20200304200221257" tags="tb contextPlugin" title="$:/plugins/danielo515/ContextPlugin/Caption" type="text/vnd.tiddlywiki">
 <pre>Context search</pre>
 </div>
 <div created="20140529162823729" creator="kk" modified="20200415003620938" modifier="kk" title="$:/plugins/danielo515/ContextPlugin/Stylesheet/results" type="text/css">
@@ -12057,7 +12055,7 @@ exports.context = contextWidget;
 <div created="20200411025506144" modified="20200412192641130" title="$:/SiteTitle">
 <pre>Humdrum Life</pre>
 </div>
-<div caption="Words to never consider as CamelCase links" created="20150210172146298" creator="Stephen" description="Words that should never be considered as CamelCase wikiwords. Separate the individual words with commas (,)." modified="20200415003557240" modifier="kk" tags="tb" title="$:/sk/WhiteList">
+<div caption="Words to never consider as CamelCase links" created="20150210172146298" creator="Stephen" description="Words that should never be considered as CamelCase wikiwords. Separate the individual words with commas (,)." modified="20200304200314967" modifier="Stephen" tags="tb ske" title="$:/sk/WhiteList">
 <pre>LeDoux,McCloud,McDonald,TiddlyWiki,TiddlyWiki5,CamelCase,DuBay,McGraw,McCullough,LeGrange,NaCl,MeOH,EtOH,PiB,TiddlyTools,ResetFind,WikiText,WinBuilder,WinPE,ProgramData,TiddlyFox,GuillermoMartin,AndrewFraser,RochesterMNwalkers,DEdwardsCalgary,WalkaboutMM,HarveyG,McCoy,GeForce,SideBar,AirBnB,PayPal,LeBron,JavaScript,ExpressJet,CutePDF,McClouds,McElroy,McGovern,TableHelper,ShadowTiddler,WikiWords</pre>
 </div>
 <div created="20200414201600229" creator="kk" modified="20200414201600229" modifier="kk" title="$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.21/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.21/index.html/$:/plugins/tiddlywiki/blog">
@@ -12174,7 +12172,7 @@ exports.context = contextWidget;
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div created="20200415154954182" creator="kk" list="TiddlyBlink $:/.giffmex/meta/hack.tiddlyblink $:/.giffmex/ViewTemplate/refstranscludecollapse $:/.giffmex/ViewTemplate/refstranscludeclean" modified="20200415155456087" modifier="kk" title="$:/StoryList">
+<div created="20200415154954182" creator="kk" list="$:/Import TiddlyBlink $:/.giffmex/meta/hack.tiddlyblink $:/.giffmex/ViewTemplate/refscontext $:/.giffmex/ViewTemplate/refslinks $:/.giffmex/ViewTemplate/refstranscludecollapse $:/.giffmex/ViewTemplate/refstranscludeclean" modified="20200415155512288" modifier="kk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -13124,14 +13122,14 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
     }
 }</pre>
 </div>
-<div created="20200127172539001" modified="20200414200956376" tags="tb" title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
-<pre>fluid-fixed</pre>
+<div created="20200127172539001" modified="20200304200413120" tags="tb" title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
+<pre>fixed-fluid</pre>
 </div>
 <div created="20200414201006290" creator="kk" modified="20200415155145536" modifier="kk" title="$:/themes/tiddlywiki/vanilla/options/stickytitles">
 <pre>no</pre>
 </div>
-<div created="20200127165334843" modified="20200414200907692" tags="tb" title="$:/view">
-<pre>pop</pre>
+<div created="20200127165334843" modified="20200304200423713" tags="tb" title="$:/view">
+<pre>zoomin</pre>
 </div>
 <div created="20200411033313453" modified="20200411034436832" tags="Journal" title="10th April 2020">
 <pre>My first Journal tiddler.
@@ -13568,7 +13566,7 @@ Solo top trip running into aids characters along the way to meet biological pare
 
 I love Wes Anderson, so basically whenever I talk about movies, I talk about him. So I wanted to try to come up with a pairing here. Obviously Wes writes and directs himself, so I tried to think of someone I haven’t seen him work with. JGL seems like the kind of person I could see showing up in a cheerful way throughout a bunch of his movies. For the score, take the Black Panther and make it more cheerful and there you go. The plot is the weakest part here. I don’t know, was thinking along the lines of the traveling scenes in Grand Budapest Hotel, and just having JGL running into a bunch of Wes regulars along the way. </pre>
 </div>
-<div created="20200125152105770" creator="kk" modified="20200415003318345" modifier="kk" tags="tb meta" title="TiddlyBlink">
+<div created="20200125152105770" modified="20200304194714120" tags=".sidebyside tb meta" title="TiddlyBlink">
 <pre>Welcome to TiddlyBlink! ~TiddlyBlink is an adaptation of TiddlyWiki with the goal of helping you see connections between your ideas, and move quickly from one idea to another. It was inspired by the bi-directional linking found in Roam (https://roamresearch.com/), but built with capabilities already available in ~TiddlyWiki (https://tiddlywiki.com). See my example file [ext[here|https://giffmex.org/gifts/tiddlyblinkexample.html]].&lt;br&gt;&lt;br&gt;
 
 ''The basic idea:''
@@ -13586,6 +13584,9 @@ Below each tiddler (note card) is a list of links to any other tiddlers that lin
 ''Advanced stuff''
 
 &lt;span class=&quot;indent1&quot;&gt;&lt;$list filter=&quot;[is[system]tag[meta]sort[title]]&quot;&gt;&lt;$link&gt;&lt;$view field=&quot;caption&quot;/&gt;&lt;/$link&gt;&lt;br&gt;&lt;/$list&gt;&lt;/span&gt;</pre>
+</div>
+<div created="20200128030902225" modified="20200304194641574" tags="tb meta" title="TiddlyBlink home">
+<pre>&lt;&lt;tabs &quot;TiddlyBlink .topicList .sourcesList .hideList&quot; &quot;TiddlyBlink&quot; &gt;&gt;</pre>
 </div>
 <div created="20200411144642652" modified="20200411145055660" tags="Manifest" title="Vitamins">
 <pre>* Magnesium 200mg

@@ -881,8 +881,6 @@ Error message and password prompt
 
 <li>Daily Routine</li>
 
-<li>Draft of '$:/jab/viewtemplate/book' by kk</li>
-
 <li>Draft of 'Books' by kk</li>
 
 <li>Eraserhead</li>
@@ -924,6 +922,8 @@ Error message and password prompt
 <li>Movies</li>
 
 <li>New</li>
+
+<li>New Book</li>
 
 <li>Now</li>
 
@@ -1460,7 +1460,7 @@ placeholder=&quot;$placeholder$&quot;/&gt;
 &lt;/$reveal&gt;
 \end</pre>
 </div>
-<div created="20200417233012375" creator="kk" modified="20200417233426629" modifier="kk" newBook="New Book" title="$:/.user/CreateBook">
+<div created="20200417233012375" creator="kk" modified="20200417233829393" modifier="kk" newBook="New Book" title="$:/.user/CreateBook">
 <pre></pre>
 </div>
 <div commit="1a6be5ae09de1289727e9a981560d295cf8f361a" title="$:/build">
@@ -11133,14 +11133,14 @@ $button$
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
-<div created="20200417233254803" creator="kk" modified="20200417233305692" modifier="kk" tags="" title="$:/jab/viewtemplate/book">
+<div created="20200417233254803" creator="kk" modified="20200417233814662" modifier="kk" tags="" title="$:/jab/viewtemplate/book">
 <pre>* &lt;a href={{!!goodreads}}&gt;Goodreads&lt;/a&gt;
 * Started reading: {{!!startdate}}
 * Finished reading: {{!!enddate}}</pre>
 </div>
-<div created="20200417233645491" creator="kk" modified="20200417233736410" modifier="kk" tags="" title="$:/jab/viewtemplate/movie">
+<div created="20200417233645491" creator="kk" modified="20200417233808252" modifier="kk" tags="" title="$:/jab/viewtemplate/movie">
 <pre>* &lt;a href={{!!letterboxd}}&gt;Letterboxd&lt;/a&gt;
-* Watched date: {{!!watchdate}}
+* Watched: {{!!watchdate}}
 </pre>
 </div>
 <div caption="{{$:/core/images/full-screen-button}} edit in full screen" created="20190204123121582" creator="jd" description="Edit in full screen mode" modified="20200304200142793" modifier="jd" tags="tb $:/tags/ViewToolbar" title="$:/jd/fullscreen-editor/EditButton">
@@ -12953,7 +12953,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div created="20200417195844420" creator="kk" list="$:/jab/viewtemplate/movie [[Draft of '$:/jab/viewtemplate/book' by kk]] Movies [[Draft of 'Books' by kk]]" modified="20200417233641707" modifier="kk" title="$:/StoryList">
+<div created="20200417195844420" creator="kk" list="[[New Book]] $:/jab/viewtemplate/movie $:/jab/viewtemplate/book Movies [[Draft of 'Books' by kk]]" modified="20200417233641707" modifier="kk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -14949,11 +14949,6 @@ The streaming channel from Criterion.</pre>
 * Beer at night 
 * Bed by 10:30</pre>
 </div>
-<div created="20200417233254803" creator="kk" draft.of="$:/jab/viewtemplate/book" draft.title="$:/jab/viewtemplate/book" modified="20200417233643103" modifier="kk" tags="" title="Draft of '$:/jab/viewtemplate/book' by kk">
-<pre>* &lt;a href={{!!goodreads}}&gt;Goodreads&lt;/a&gt;
-* Started reading: {{!!startdate}}
-* Finished reading: {{!!enddate}}</pre>
-</div>
 <div created="20200417231518181" creator="kk" draft.of="Books" draft.title="Books" modified="20200417233533300" modifier="kk" tags="List" title="Draft of 'Books' by kk">
 <pre>&lt;$button tooltip=&quot;Add a book&quot;&gt;Add a book
 &lt;$action-createtiddler
@@ -15244,14 +15239,13 @@ So the whole idea started from wanting David Lynch to do something more mainstre
 
 A new [[Subscription]] to me. Haven't pulled the trigger yet, but it looks interesting. You can buy books outside of the sub, but it is basically books that come to you in the form of [[Field Notes]] making it convenient to read on the go.</pre>
 </div>
-<div created="20200417231439969" creator="kk" modified="20200417233630838" modifier="kk" tags="List" title="Movies">
+<div created="20200417231439969" creator="kk" modified="20200417233827742" modifier="kk" tags="List" title="Movies">
 <pre>&lt;$button tooltip=&quot;Add a movie&quot;&gt;Add a movie
 &lt;$action-createtiddler
 $basetitle='New Book'
 text=&quot;{{||$:/jab/viewtemplate/movie}}&quot;
 tags='Movies'
-startdate='[['
-enddate=''
+watchdate='[['
 letterboxd=''
 $savetitle='$:/.user/CreateBook!!newBook'
 /&gt;
@@ -15267,6 +15261,9 @@ $param={{$:/.user/CreateBook!!newBook}}/&gt;
 <pre>''The most recent entries...''
 
 &lt;$macrocall $name=&quot;timeline&quot; format={{$:/language/RecentChanges/DateFormat}} dateField=&quot;created&quot; limit=&quot;9&quot; /&gt;</pre>
+</div>
+<div created="20200417233829389" creator="kk" letterboxd="" modified="20200417233839223" modifier="kk" tags="Movies" title="New Book" watchdate="[[">
+<pre>{{||$:/jab/viewtemplate/movie}}</pre>
 </div>
 <div created="20200415220440574" creator="kk" modified="20200417200328678" modifier="kk" tags="ASIB" title="Now">
 <pre>Today is: Wednesday, April 15, 2020.

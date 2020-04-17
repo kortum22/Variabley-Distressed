@@ -475,6 +475,8 @@ Error message and password prompt
 
 <li>$:/state/tab-1749438307</li>
 
+<li>$:/state/tab-2065006209</li>
+
 <li>$:/state/tab-738187504</li>
 
 <li>$:/state/tab/moresidebar-1850697562</li>
@@ -500,6 +502,8 @@ Error message and password prompt
 <li>$:/temp/advancedsearch</li>
 
 <li>$:/temp/info-plugin</li>
+
+<li>$:/temp/list-search-example</li>
 
 <li>$:/temp/sbartidddisplayvalue</li>
 
@@ -889,12 +893,12 @@ with
 <div created="20190624061203012" creator="Gloom" modified="20200304195303860" modifier="Gloom" purposedesc="text edit box for Show tiddler sidebar" tags="tb #template $:/.giffmex/sidebar/parallel2" title="$:/.giffmex/sidebar/parallel" type="application/x-tiddler">
 <pre>Paste a tiddler title to view tiddler in tab: &lt;$edit-text tiddler=&quot;$:/temp/sbartidddisplayvalue&quot; placeholder=&quot;tiddler title&quot; tag=&quot;input&quot; type=&quot;text&quot;/&gt;</pre>
 </div>
-<div caption="parallel" created="20190624061500276" creator="Gloom" infodesc="For temporarily displaying a tiddler in the sidebar (without having to tag it). Type the tiddler title in the text field and tiddler will sidpay below it." modified="20200304195325476" modifier="Gloom" tags="tb $:/tags/SideBar *sidebar" title="$:/.giffmex/sidebar/parallel2" tooltip="For temporarily displaying a tiddler in the sidebar (without having to tag it)" type="application/x-tiddler">
+<div caption="Ref" created="20190624061500276" creator="Gloom" infodesc="For temporarily displaying a tiddler in the sidebar (without having to tag it). Type the tiddler title in the text field and tiddler will sidpay below it." modified="20200417170648505" modifier="kk" tags="tb $:/tags/SideBar *sidebar" title="$:/.giffmex/sidebar/parallel2" tooltip="For temporarily displaying a tiddler in the sidebar (without having to tag it)" type="application/x-tiddler">
 <pre>{{$:/.giffmex/sidebar/parallel}} &lt;br&gt;&lt;h2&gt;&lt;$list filter=&quot;[{$:/temp/sbartidddisplayvalue}is[tiddler]]&quot; emptyMessage=&quot;tiddler doesn't exist&quot; &gt;&lt;/$list&gt;&lt;/h2&gt;
 
 &lt;$transclude tiddler={{$:/temp/sbartidddisplayvalue}} mode=&quot;block&quot; /&gt;</pre>
 </div>
-<div caption="{{$:/core/images/options-button}}" created="20200129233103456" modified="20200304195335855" tags="tb $:/tags/SideBar" title="$:/.giffmex/sidebar/tabs/tiddlyblinkcontrols">
+<div caption="{{$:/core/images/options-button}}" created="20200129233103456" creator="kk" modified="20200417170535999" modifier="kk" tags="tb" title="$:/.giffmex/sidebar/tabs/tiddlyblinkcontrols">
 <pre>\define tagreset() 
 &lt;$list filter=&quot;[tag[refs]sort[created]] -[[$(currentTiddler)$]]&quot; variable=&quot;removeme&quot;&gt;
 &lt;$action-listops  $tiddler=&lt;&lt;removeme&gt;&gt; $tags=&quot;+[remove[$:/tags/ViewTemplate]]&quot;/&gt;
@@ -10730,7 +10734,7 @@ if(n&gt;-1) {
 &lt;/$button&gt;
 &lt;/$navigator&gt;</pre>
 </div>
-<div created="20190202142805411" creator="jd" modified="20200417163059028" modifier="kk" title="$:/palette">
+<div created="20190202142805411" creator="jd" modified="20200417170546036" modifier="kk" title="$:/palette">
 <pre>$:/palettes/TIV</pre>
 </div>
 <div created="20200411235618557" description="A clean white palette to let you focus" modified="20200411235859665" name="Blanca" tags="$:/tags/Palette" title="$:/palettes/Blanca" type="application/x-tiddler-dictionary">
@@ -10955,7 +10959,7 @@ toolbar-done-button:
 untagged-background: #999999
 very-muted-foreground: #888888</pre>
 </div>
-<div created="20200411235949707" creator="kk" description="A clean white palette to let you focus" modified="20200416030619768" modifier="kk" name="Blanca" tags="$:/tags/Palette" title="$:/palettes/TIV" type="application/x-tiddler-dictionary">
+<div created="20200411235949707" creator="kk" description="A clean white palette to let you focus" modified="20200417171747691" modifier="kk" name="Blanca" tags="$:/tags/Palette" title="$:/palettes/TIV" type="application/x-tiddler-dictionary">
 <pre>alert-background: #ffe476
 alert-border: #b99e2f
 alert-highlight: #881122
@@ -10982,7 +10986,7 @@ external-link-background-hover: inherit
 external-link-background-visited: inherit
 external-link-background: inherit
 external-link-foreground-hover: inherit
-external-link-foreground-visited: #0000aa
+external-link-foreground-visited: #0F80EA
 external-link-foreground: #0F80EA
 foreground: #353535
 message-background: #ecf2ff
@@ -12267,7 +12271,7 @@ html body.tc-body {
 <div created="20200416004713251" creator="kk" modified="20200416004713251" modifier="kk" title="$:/state/plugin-info--896887961-$:/plugins/tiddlywiki/markdown">
 <pre>yes</pre>
 </div>
-<div created="20200416004557886" creator="kk" modified="20200417163733998" modifier="kk" title="$:/state/searchtab-1444756290">
+<div created="20200416004557886" creator="kk" modified="20200417170514326" modifier="kk" title="$:/state/searchtab-1444756290">
 <pre>$:/core/ui/AdvancedSearch/System</pre>
 </div>
 <div created="20200416025516037" creator="kk" modified="20200417153600444" modifier="kk" title="$:/state/ShowPaletteEditor">
@@ -12279,17 +12283,17 @@ html body.tc-body {
 <div created="20200416004619463" creator="kk" modified="20200416004623967" modifier="kk" title="$:/state/styled-frames">
 <pre>yes</pre>
 </div>
-<div created="20200416025145798" creator="kk" modified="20200416025316674" modifier="kk" title="$:/state/tab--1466206445">
+<div created="20200416025145798" creator="kk" modified="20200417171156699" modifier="kk" title="$:/state/tab--1466206445">
 <pre>About</pre>
 </div>
 <div created="20200416004547366" creator="kk" modified="20200416034203869" modifier="kk" title="$:/state/tab--1498284803">
 <pre>Context Search</pre>
 </div>
-<div created="20200416034253092" creator="kk" modified="20200416034258091" modifier="kk" title="$:/state/tab--1850996832">
-<pre>About</pre>
+<div created="20200416034253092" creator="kk" modified="20200417170735230" modifier="kk" title="$:/state/tab--1850996832">
+<pre>.sourcesList</pre>
 </div>
-<div created="20200416003950959" creator="kk" modified="20200417154415557" modifier="kk" title="$:/state/tab--1963855381">
-<pre>$:/themes/jd/Mono/Config</pre>
+<div created="20200416003950959" creator="kk" modified="20200417171732998" modifier="kk" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Palette</pre>
 </div>
 <div created="20200416005322360" creator="kk" modified="20200416034117101" modifier="kk" title="$:/state/tab--2112689675">
 <pre>$:/core/ui/ControlPanel/Advanced</pre>
@@ -12309,8 +12313,11 @@ html body.tc-body {
 <div created="20200416005700816" creator="kk" modified="20200416005700816" modifier="kk" title="$:/state/tab-1528275152">
 <pre>$:/plugins/danielo515/ContextPlugin/visualizer</pre>
 </div>
-<div created="20200416003949736" creator="kk" modified="20200416034119037" modifier="kk" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Appearance</pre>
+<div created="20200416003949736" creator="kk" modified="20200417171925889" modifier="kk" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Saving</pre>
+</div>
+<div created="20200417171927472" creator="kk" modified="20200417171927472" modifier="kk" title="$:/state/tab-2065006209">
+<pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
 <div created="20200416004310229" creator="kk" modified="20200417154424967" modifier="kk" title="$:/state/tab-738187504">
 <pre>$:/themes/jd/Mono/Config/TopbarButtons</pre>
@@ -12318,8 +12325,8 @@ html body.tc-body {
 <div created="20200416005711236" creator="kk" modified="20200416024920688" modifier="kk" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Orphans</pre>
 </div>
-<div created="20200416003926822" creator="kk" modified="20200417164811749" modifier="kk" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Open</pre>
+<div created="20200416003926822" creator="kk" modified="20200417170707929" modifier="kk" title="$:/state/tab/sidebar--595412856">
+<pre>And So It Begins</pre>
 </div>
 <div created="20200416024355924" creator="kk" modified="20200416024355924" modifier="kk" title="$:/state/tag-manager/Beer">
 <pre>open</pre>
@@ -12330,7 +12337,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div created="20200417164638266" creator="kk" list="$:/config/stylesheet/icon $:/favicon.ico [[17th April 2020]] [[16th April 2020]] [[And So It Begins]]" modified="20200417164652418" modifier="kk" title="$:/StoryList">
+<div created="20200417170206552" creator="kk" list="[[17th April 2020]] [[16th April 2020]] [[And So It Begins]] [[Daily Haunts]] About" modified="20200417171922548" modifier="kk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -12345,8 +12352,8 @@ html body.tc-body {
 <div created="20200127144249151" list="$:/.giffmex/ViewToolbar/new-note-here $:/.giffmex/ViewToolbar/new-note-here-datetime $:/.giffmex/viewtoolbar/viewrefs $:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/info $:/core/ui/Buttons/new-here $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/edit $:/core/ui/Buttons/delete $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/core/ui/Buttons/close $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold" modified="20200304200401109" tags="tb" title="$:/tags/ViewToolbar">
 <pre></pre>
 </div>
-<div created="20200416003938204" creator="kk" modified="20200417164648190" modifier="kk" title="$:/temp/advancedsearch">
-<pre>icon</pre>
+<div created="20200416003938204" creator="kk" modified="20200417170517801" modifier="kk" title="$:/temp/advancedsearch">
+<pre>sidebar</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
@@ -12405,6 +12412,9 @@ html body.tc-body {
         }
     }
 }</pre>
+</div>
+<div created="20200417170823989" creator="kk" modified="20200417170826655" modifier="kk" title="$:/temp/list-search-example">
+<pre></pre>
 </div>
 <div created="20200416025445329" creator="kk" modified="20200416025459709" modifier="kk" title="$:/temp/sbartidddisplayvalue">
 <pre>Better Hit The Jackpot aka 777</pre>
@@ -12863,10 +12873,10 @@ Automatically updating references when changing the title of a tiddler seems to 
 
 Messed with a bunch of stuff on the wiki, really fucked up a few things, other things got set-up nicely...</pre>
 </div>
-<div created="20200416141559184" creator="kk" modified="20200417153309674" modifier="kk" tags="Journal" title="16th April 2020">
+<div created="20200416141559184" creator="kk" modified="20200417165514795" modifier="kk" tags="Journal" title="16th April 2020">
 <pre>Itâ€™s Brew Day! [[16th April 2020 Brew Day Log]]
 
-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Give Up - The Postal Service
+í ¼í¾µ Give Up - The Postal Service
 
 Had a chance to pick up some Equilibrium beers from NY along with my weekly Hop Butcher can run. Enjoyed it a lot. Only got one four pack out fo the five though cause they were over $25 here.
 
@@ -12913,10 +12923,12 @@ Yeast went into a starter on Tuesday afternoon, so that should be plenty ready b
 * 6:15 PM - transferred to fermentor and pitched yeast. Put in cold closest and will move to the warmer closet in a few days.
 </pre>
 </div>
-<div created="20200417153355060" creator="kk" modified="20200417164048874" modifier="kk" tags="Journal" title="17th April 2020">
+<div created="20200417153355060" creator="kk" modified="20200417165622250" modifier="kk" tags="Journal" title="17th April 2020">
 <pre>Slept in a little bit today. Trying to get some things organized and hopefully get a lot of reading done today. Also going to try to stop tinkering with the wiki for awhile and just use it.
 
-Well... I'm already back to tweaking. Added a dark mode with the switcher from the mono theme and realized I can &quot;Add to Homescreen&quot; with iOS and it runs pretty well like a web app. Now I'm trying to figure out how to configure the iOS icon part here. I know it's something like &lt;link rel=&quot;apple-touch-icon&quot; href=&quot;/images/apple-touch-icon.png&quot;&gt; but I don't know how to get the icon here and then where to put that bit of code to make sure it gets picked up.</pre>
+Well... I'm already back to tweaking. Added a dark mode with the switcher from the mono theme and realized I can &quot;Add to Homescreen&quot; with iOS and it runs pretty well like a web app. Now I'm trying to figure out how to configure the iOS icon part here. I know it's something like &lt;link rel=&quot;apple-touch-icon&quot; href=&quot;/images/apple-touch-icon.png&quot;&gt; but I don't know how to get the icon here and then where to put that bit of code to make sure it gets picked up.
+
+Jack had the instructions on setting up a favicon, which I did. My image might be too big or it just isn't picking up the change because it's still pulling the icon from TIV rather than what I uploaded. This still doesn't get my to the iOS icon though.</pre>
 </div>
 <div created="20200411141322897" creator="kk" modified="20200416141923285" modifier="kk" tags="[[Top Ten]] 2019 Music" title="2019 Top Ten Albums">
 <pre>Based on my Too Early Top Tens: https://tiv.today/2019/12/tooearlytopten
@@ -13027,14 +13039,14 @@ TV is looking at Killing Eve, Curb, Mythic Wuest, Better Things, The Outsider, I
 
 </pre>
 </div>
-<div created="20200415220201718" creator="kk" modified="20200415220420067" modifier="kk" tags="ASIB" title="About">
+<div created="20200415220201718" creator="kk" modified="20200417171136736" modifier="kk" tags="ASIB" title="About">
 <pre>Welcome to Humdrum Life, reincarnated.
 
-This is the wiki of Grandmaster Kevin Kovacs, , the unknown Eroscibopictaros.
+This is the wiki of [[Grandmaster|https://en.wikipedia.org/wiki/Thor%3A_Ragnarok]] Kevin [[Kovacs|https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel#Casting]], the unknown [[Eroscibopictaros|https://en.wikipedia.org/wiki/Chew_(comics)]].
 
 This TiddlyWiki is still evolving.</pre>
 </div>
-<div created="20200415215739764" creator="kk" modified="20200416025300444" modifier="kk" tags="$:/tags/SideBar hide" title="And So It Begins" type="">
+<div caption="ToC" created="20200415215739764" creator="kk" list-before="$:/core/ui/SideBar/Open" modified="20200417170357563" modifier="kk" tags="$:/tags/SideBar hide" title="And So It Begins" type="">
 <pre>&lt;&lt;tabs &quot;About .topicList .sourcesList&quot;&gt;&gt;
 
 
@@ -13146,7 +13158,7 @@ Second all-grain beer.
 
 A milkshake double ipa fermented on honeybell oranges with 1# lactose, flaked oats, acid malt, double dry hopped with citra + strata.</pre>
 </div>
-<div created="20200415220816406" creator="kk" modified="20200415221008138" modifier="kk" tags="ASIB" title="Daily Haunts">
+<div created="20200415220816406" creator="kk" modified="20200417171720931" modifier="kk" tags="ASIB" title="Daily Haunts">
 <pre>! Wikis
 
 [[Rudimentary Lathe|https://rudimentarylathe.org/]]
@@ -13154,6 +13166,47 @@ A milkshake double ipa fermented on honeybell oranges with 1# lactose, flaked oa
 [[You Need A Stereo|https://youneedastereo.com/]] 
 
  [[Joshisms|https://joshisms.io/]]
+
+[[h0p3]]
+
+
+! Publications
+
+[[The New Yorker]]
+
+[[The Atlantic]]
+
+! Blogs
+
+[[Kottke.org]]
+
+[[/Film]]
+
+[[Kicks Condor]]
+
+[[The Ringer]]
+
+
+! Newsletters
+
+[[Orbital Operations]]
+
+[[NextDraft]]
+
+[[Robin Sloan]]
+
+[[Stet.Build]]
+
+[[Craig Mod]]
+
+[[Nieman Lab]]
+
+[[Sameer Vasta]]
+
+
+
+
+
 </pre>
 </div>
 <div created="20200412215957594" modified="20200412221747198" tags="Manifest" title="Daily Routine">
@@ -13256,7 +13309,7 @@ Man stranded in desert discovers UFO.
 
 So the whole idea started from wanting David Lynch to do something more mainstream and have Trent Reznor and Atticus Ross score it. I thought of this watching //Eraserhead//, which was just too out there for me. The basic plot thread of a man, stranded, discovering a UFO and crazy shit happening just seemed to fit with the aesthetic of Lynch and Michael Shannon is the perfect person to just have deal with some psychedelic UFO crap in the middle of a desert. Drew Goddard is thrown in the mix to keep things from getting too off the wall. Have Lynch come up with the outline, Goddard script it and add in some quirky meta-ness to the whole thing, then just let Lynch go shoot it. </pre>
 </div>
-<div created="20200415222731774" creator="kk" modified="20200415222749861" modifier="kk" tags="$:/tags/SideBar" title="New">
+<div created="20200415222731774" creator="kk" list-after="$:/core/ui/SideBar/Open" modified="20200417170253900" modifier="kk" tags="$:/tags/SideBar" title="New">
 <pre>''The 10 most recent entries...''
 
 &lt;$macrocall $name=&quot;timeline&quot; format={{$:/language/RecentChanges/DateFormat}} dateField=&quot;created&quot; limit=&quot;10&quot; /&gt;</pre>

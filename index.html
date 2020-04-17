@@ -269,6 +269,8 @@ Error message and password prompt
 
 <li>$:/.tb/macros/list-search</li>
 
+<li>$:/.user/CreateBook</li>
+
 <li>$:/build</li>
 
 <li>$:/config/DefaultMoreSidebarTab</li>
@@ -1445,6 +1447,9 @@ placeholder=&quot;$placeholder$&quot;/&gt;
 &lt;$list filter=&quot;$filter$+[$search${$state$}]+[limit[$limit$]]&quot; template=&quot;$template$&quot;/&gt;
 &lt;/$reveal&gt;
 \end</pre>
+</div>
+<div created="20200417233012375" creator="kk" modified="20200417233012375" modifier="kk" newBook="New Book" title="$:/.user/CreateBook">
+<pre></pre>
 </div>
 <div commit="1a6be5ae09de1289727e9a981560d295cf8f361a" title="$:/build">
 <pre>Built from branch 'tiddlywiki-com' at commit 1a6be5ae09de1289727e9a981560d295cf8f361a of https://github.com/Jermolene/TiddlyWiki5.git at 2020-04-15 15:19:44 UTC
@@ -14795,12 +14800,12 @@ Flavors:              Juicy Oranges, Orange Juice, Orange Smoothie
 
 </pre>
 </div>
-<div created="20200417231518181" creator="kk" modified="20200417233010762" modifier="kk" tags="List" title="Books">
+<div created="20200417231518181" creator="kk" modified="20200417233110095" modifier="kk" tags="List" title="Books">
 <pre>&lt;$button tooltip=&quot;Add a book&quot;&gt;Add a book
 &lt;$action-createtiddler
 $basetitle='New Book'
 text=&quot;{{||$:/jab/viewtemplate/book}}&quot;
-tags='Book'
+tags='Books'
 startdate=''
 enddate=''
 goodreads=''

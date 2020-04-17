@@ -371,6 +371,8 @@ Error message and password prompt
 
 <li>$:/core/modules/parsers/wikiparser/rules/wikilink.js</li>
 
+<li>$:/core/ui/SideBar/Open</li>
+
 <li>$:/DefaultTiddlers</li>
 
 <li>$:/favicon.ico</li>
@@ -506,6 +508,8 @@ Error message and password prompt
 <li>$:/state/tab--2112689675</li>
 
 <li>$:/state/tab--565514155</li>
+
+<li>$:/state/tab--84347281</li>
 
 <li>$:/state/tab--86143343</li>
 
@@ -10981,6 +10985,42 @@ if(n&gt;-1) {
 })();
 </pre>
 </div>
+<div caption="{{$:/language/SideBar/Open/Caption}}" created="20200417201602067" creator="kk" modified="20200417201602067" modifier="kk" title="$:/core/ui/SideBar/Open">
+<pre>\whitespace trim
+\define lingo-base() $:/language/CloseAll/
+
+\define drop-actions()
+&lt;$action-listops $tiddler=&lt;&lt;tv-story-list&gt;&gt; $subfilter=&quot;+[insertbefore:currentTiddler&lt;actionTiddler&gt;]&quot;/&gt;
+\end
+
+\define placeholder()
+&lt;div class=&quot;tc-droppable-placeholder&quot;/&gt;
+\end
+
+\define droppable-item(button)
+\whitespace trim
+&lt;$droppable actions=&lt;&lt;drop-actions&gt;&gt; enable=&lt;&lt;tv-allow-drag-and-drop&gt;&gt;&gt;
+&lt;&lt;placeholder&gt;&gt;
+&lt;div&gt;
+$button$
+&lt;/div&gt;
+&lt;/$droppable&gt;
+\end
+
+&lt;div class=&quot;tc-sidebar-tab-open&quot;&gt;
+&lt;$list filter=&quot;[list&lt;tv-story-list&gt;]&quot; history=&lt;&lt;tv-history-list&gt;&gt; storyview=&quot;pop&quot;&gt;
+&lt;div class=&quot;tc-sidebar-tab-open-item&quot;&gt;
+&lt;$macrocall $name=&quot;droppable-item&quot; button=&quot;&quot;&quot;&lt;$button message=&quot;tm-close-tiddler&quot; tooltip={{$:/language/Buttons/Close/Hint}} aria-label={{$:/language/Buttons/Close/Caption}} class=&quot;tc-btn-invisible tc-btn-mini&quot;&gt;{{$:/core/images/close-button}}&lt;/$button&gt;&amp;nbsp;&lt;$link to={{!!title}}&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/$link&gt;&quot;&quot;&quot;/&gt;
+&lt;/div&gt;
+&lt;/$list&gt;
+&lt;$tiddler tiddler=&quot;&quot;&gt;
+&lt;div&gt;
+&lt;$macrocall $name=&quot;droppable-item&quot; button=&quot;&quot;&quot;&lt;$button message=&quot;tm-close-all-tiddlers&quot; class=&quot;tc-btn-invisible tc-btn-mini&quot;&gt;&lt;&lt;lingo Button&gt;&gt;&lt;/$button&gt;&quot;&quot;&quot;/&gt;
+&lt;/div&gt;
+&lt;/$tiddler&gt;
+&lt;/div&gt;
+</pre>
+</div>
 <div created="20200106211749103" creator="kk" modified="20200417200824140" modifier="kk" tags="tb" title="$:/DefaultTiddlers">
 <pre>[tag[Journal]!sort[created]limit[1]]
 
@@ -12762,6 +12802,9 @@ html body.tc-body {
 <div created="20200417195703092" creator="kk" modified="20200417195705908" modifier="kk" title="$:/state/tab--565514155">
 <pre>About</pre>
 </div>
+<div created="20200417201504917" creator="kk" modified="20200417201517369" modifier="kk" title="$:/state/tab--84347281">
+<pre>$:/core/ui/DefaultSearchResultList</pre>
+</div>
 <div created="20200416004849635" creator="kk" modified="20200417194235862" modifier="kk" title="$:/state/tab--86143343">
 <pre>$:/core/ui/ControlPanel/Plugins/Installed/Plugins</pre>
 </div>
@@ -12786,11 +12829,11 @@ html body.tc-body {
 <div created="20200416004310229" creator="kk" modified="20200417194359085" modifier="kk" title="$:/state/tab-738187504">
 <pre>$:/themes/jd/Mono/Config/SidebarSegments</pre>
 </div>
-<div created="20200416005711236" creator="kk" modified="20200417180527817" modifier="kk" title="$:/state/tab/moresidebar-1850697562">
-<pre>$:/core/ui/MoreSideBar/Missing</pre>
+<div created="20200416005711236" creator="kk" modified="20200417201533094" modifier="kk" title="$:/state/tab/moresidebar-1850697562">
+<pre>$:/core/ui/MoreSideBar/Tags</pre>
 </div>
-<div created="20200416003926822" creator="kk" modified="20200417201358175" modifier="kk" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Open</pre>
+<div created="20200416003926822" creator="kk" modified="20200417201525120" modifier="kk" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/More</pre>
 </div>
 <div created="20200417194526591" creator="kk" modified="20200417194532159" modifier="kk" title="$:/state/tab/sidebar-1477732604">
 <pre>$:/core/ui/SideBar/Open</pre>
@@ -12807,7 +12850,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div created="20200417195844420" creator="kk" list="New $:/ControlPanel Happening [[17th April 2020]] [[Draft of 'Table of Contents' by kk]] Now" modified="20200417201448663" modifier="kk" title="$:/StoryList">
+<div created="20200417195844420" creator="kk" list="New $:/ControlPanel Happening $:/core/ui/SideBar/Open [[17th April 2020]] [[Draft of 'Table of Contents' by kk]] Now" modified="20200417201553177" modifier="kk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -12889,8 +12932,8 @@ html body.tc-body {
 <div created="20200417170823989" creator="kk" modified="20200417170826655" modifier="kk" title="$:/temp/list-search-example">
 <pre></pre>
 </div>
-<div created="20200417195305171" creator="kk" modified="20200417195305330" modifier="kk" title="$:/temp/menubarsearch">
-<pre>new</pre>
+<div created="20200417195305171" creator="kk" modified="20200417201522574" modifier="kk" title="$:/temp/menubarsearch">
+<pre></pre>
 </div>
 <div author="Paco Rivière" core-version="&gt;=5.0.0" created="20200417175945363" creator="kk" dependents="" description="Catalan (Spain)" icon="data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22810%22%20height%3D%22540%22%3E%0A%3Crect%20width%3D%22810%22%20height%3D%22540%22%20fill%3D%22%23FCDD09%22%2F%3E%0A%3Cpath%20stroke%3D%22%23DA121A%22%20stroke-width%3D%2260%22%20d%3D%22M0%2C90H810m0%2C120H0m0%2C120H810m0%2C120H0%22%2F%3E%0A%3C%2Fsvg%3E" modified="20200417175945363" modifier="kk" name="ca-ES" original-plugin-type="language" original-tags="" original-title="$:/languages/ca-ES" original-type="application/json" requires-reload="no" server-url="https://tiddlywiki.com/library/v5.1.22/index.html" tags="$:/tags/RemoteAssetInfo" title="$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/languages/ca-ES" type="text/vnd.tiddlywiki" version="5.1.22">
 <pre></pre>

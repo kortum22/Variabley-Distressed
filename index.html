@@ -895,8 +895,6 @@ Error message and password prompt
 
 <li>Daily Routine</li>
 
-<li>Draft of '18 April 2020' by kk</li>
-
 <li>Eraserhead</li>
 
 <li>Field Notes</li>
@@ -12983,7 +12981,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div created="20200418045401976" creator="kk" list="$:/config/NewReview/Text $:/config/NewReview/Title $:/config/NewReview/Tags $:/config/NewTDL/Title $:/config/NewTDL/Text $:/config/NewTDL/Tags [[Table of Contents]] [[Draft of '18 April 2020' by kk]]" modified="20200418045914004" modifier="kk" title="$:/StoryList">
+<div created="20200418045401976" creator="kk" list="$:/config/NewReview/Text $:/config/NewReview/Title $:/config/NewReview/Tags $:/config/NewTDL/Title $:/config/NewTDL/Text $:/config/NewTDL/Tags [[Table of Contents]]" modified="20200418045914004" modifier="kk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -14989,9 +14987,6 @@ The streaming channel from Criterion.</pre>
 * Beer at night 
 * Bed by 10:30</pre>
 </div>
-<div created="20200418051058555" creator="kk" draft.of="18 April 2020" draft.title="18 April 2020" modified="20200418051058555" modifier="kk" tags="Journal" title="Draft of '18 April 2020' by kk">
-<pre></pre>
-</div>
 <div created="20200417230743608" creator="kk" modified="20200417230841414" modifier="kk" tags="Movies [[Criterion Channel]]" title="Eraserhead">
 <pre>Watched on [[Criterion Channel]] on [[3 April 2020]].
 
@@ -15425,7 +15420,7 @@ Finished: [[28 March 2020]]</pre>
 <div created="20200417180642130" creator="kk" modified="20200417180714820" modifier="kk" tags="Manifest" title="Subscription">
 <pre>Things with subscription linked are listed below in References.</pre>
 </div>
-<div caption="ToC" created="20200415215739764" creator="kk" is-dropdown="yes" list-before="$:/core/ui/SideBar/Open" modified="20200418051056681" modifier="kk" tags="$:/tags/SideBar hide" title="Table of Contents" type="">
+<div caption="ToC" created="20200415215739764" creator="kk" is-dropdown="yes" list-before="$:/core/ui/SideBar/Open" modified="20200418051221784" modifier="kk" tags="$:/tags/SideBar hide" title="Table of Contents" type="">
 <pre>&lt;&lt;tabs &quot;About .topicList .sourcesList&quot;&gt;&gt;
 
 &lt;$button tooltip=&quot;Start the Day&quot;&gt;Start the Day
@@ -15447,13 +15442,14 @@ Finished: [[28 March 2020]]</pre>
 &lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text={{{ [&lt;journalTitle&gt;get[]] }}}/&gt;
 &lt;/$reveal&gt;
 &lt;$reveal type=&quot;match&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
-&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&quot;[[&quot;&lt;&lt;journalTexx&gt;&gt;&quot;]]&quot;/&gt;
+&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalTexx&gt;&gt;/&gt;
 &lt;/$reveal&gt;
 &lt;/$wikify&gt;
 &lt;/$wikify&gt;
 &lt;/$vars&gt;
 
 &lt;$vars journalTitleTemplate={{$:/config/NewTDL/Title}} journalTags={{$:/config/NewTDL/Tags!!tags}} journalText={{$:/config/NewTDL/Text}}&gt;
+&lt;$wikify name=&quot;journalTexx&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format=&lt;&lt;journalText&gt;&gt;/&gt;&quot;&quot;&quot;&gt;
 &lt;$wikify name=&quot;journalTitle&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;&quot;&quot;&quot;&gt;
 &lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
 &lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text={{{ [&lt;journalTitle&gt;get[]] }}}/&gt;
@@ -15461,6 +15457,7 @@ Finished: [[28 March 2020]]</pre>
 &lt;$reveal type=&quot;match&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
 &lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalText&gt;&gt;/&gt;
 &lt;/$reveal&gt;
+&lt;/$wikify&gt;
 &lt;/$wikify&gt;
 &lt;/$vars&gt;
 

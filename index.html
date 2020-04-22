@@ -597,6 +597,8 @@ Error message and password prompt
 
 <li>$:/temp/menubarsearch</li>
 
+<li>$:/temp/NewTagName</li>
+
 <li>$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/languages/ca-ES</li>
 
 <li>$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/languages/cs-CZ</li>
@@ -931,8 +933,6 @@ Error message and password prompt
 
 <li>Daily Routine</li>
 
-<li>Date</li>
-
 <li>Dead Pig Collector</li>
 
 <li>Deep Work by Cal Newport</li>
@@ -1072,6 +1072,8 @@ Error message and password prompt
 <li>Table of Contents</li>
 
 <li>TacoSauceNinja - Art</li>
+
+<li>Tasks</li>
 
 <li>TDL - 18 April 2020</li>
 
@@ -13146,7 +13148,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div created="20200422213056127" creator="kk" list="Date [[22 April 2020]] [[TDL - 22 April 2020]]" modified="20200422213056127" modifier="kk" title="$:/StoryList">
+<div created="20200422213056127" creator="kk" list="Tasks [[22 April 2020]] [[TDL - 22 April 2020]]" modified="20200422213646950" modifier="kk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -13230,6 +13232,9 @@ html body.tc-body {
 </div>
 <div created="20200417195305171" creator="kk" modified="20200422043705128" modifier="kk" title="$:/temp/menubarsearch">
 <pre>void</pre>
+</div>
+<div created="20200422213636064" creator="kk" modified="20200422213636064" modifier="kk" title="$:/temp/NewTagName">
+<pre></pre>
 </div>
 <div author="Paco Rivière" core-version="&gt;=5.0.0" created="20200417175945363" creator="kk" dependents="" description="Catalan (Spain)" icon="data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22810%22%20height%3D%22540%22%3E%0A%3Crect%20width%3D%22810%22%20height%3D%22540%22%20fill%3D%22%23FCDD09%22%2F%3E%0A%3Cpath%20stroke%3D%22%23DA121A%22%20stroke-width%3D%2260%22%20d%3D%22M0%2C90H810m0%2C120H0m0%2C120H810m0%2C120H0%22%2F%3E%0A%3C%2Fsvg%3E" modified="20200417175945363" modifier="kk" name="ca-ES" original-plugin-type="language" original-tags="" original-title="$:/languages/ca-ES" original-type="application/json" requires-reload="no" server-url="https://tiddlywiki.com/library/v5.1.22/index.html" tags="$:/tags/RemoteAssetInfo" title="$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/languages/ca-ES" type="text/vnd.tiddlywiki" version="5.1.22">
 <pre></pre>
@@ -14959,9 +14964,9 @@ Trying to figure out the formatting, linking, and tagging system I want to use w
 
 Added books going back to 2018 about. Realized how little reading I did in 2018 (and 2017, which I'll get to tomorrow).</pre>
 </div>
-<div created="20200422050857995" creator="kk" modified="20200422213607602" modifier="kk" tags="Journal" title="22 April 2020">
+<div created="20200422050857995" creator="kk" modified="20200422213655697" modifier="kk" tags="Journal" title="22 April 2020">
 <pre>Think I might have to get some help and figure out how I can host this somewhere other than Github pages, where I can still edit on iOS and have syncing be more reliable. I've loved what I've been able to do, but I can see the syncing driving me away with the issues I've had. Don't want to pay at the moment though...
-&lt;&lt;now DDMMMYYYY&gt;&gt;
+
 These fucking [[409's]]...!!!
 
 I still want things to get a little weirder around here. Now that's it's not the blog, and I've talked about it for awhile, some internal and mental worldbuilding of sorts, a mix between a fictional story and some of the in-depth pages [[h0p3]] has built out in his lexicon.
@@ -15348,9 +15353,6 @@ The streaming channel from Criterion.</pre>
 * Read
 * Beer at night 
 * Bed by 10:30</pre>
-</div>
-<div caption="Date" created="20200422212922319" creator="kk" modified="20200422213551291" modifier="kk" tags="$:/tags/TextEditor/Snippet" title="Date">
-<pre>&lt;&lt;now DDMMMYYYY&gt;&gt;</pre>
 </div>
 <div created="20200422044330995" creator="kk" modified="20200422044832671" modifier="kk" tags="Books Novella Love" title="Dead Pig Collector">
 <pre>by [[Warren Ellis]]
@@ -16387,6 +16389,26 @@ This is the first tiddler with the [[Collection]] tag where I’m planning to ke
 Discovered: [[20 April 2020]] via [[Dense Discovery]]. 
 
 [img[https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e47425d1-6e7d-4317-b861-3776d2e64404/ddsbxa0-ea930eb5-38d1-42e6-9ec4-1433a8901615.jpg/v1/fill/w_1024,h_1366,q_75,strp/secret_of_life_by_tacosauceninja_ddsbxa0-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTM2NiIsInBhdGgiOiJcL2ZcL2U0NzQyNWQxLTZlN2QtNDMxNy1iODYxLTM3NzZkMmU2NDQwNFwvZGRzYnhhMC1lYTkzMGViNS0zOGQxLTQyZTYtOWVjNC0xNDMzYTg5MDE2MTUuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.0bZ8eONfMsewyJHGFbnCcke1q8NVYTR9u__5Rdskzi4]]</pre>
+</div>
+<div created="20200422213756494" creator="kk" modified="20200422213820346" modifier="kk" tags="" title="Tasks">
+<pre>This is a version of the TaskManagementExample enhanced with the ability to drag and drop the task list to re-order them.
+
+! Outstanding tasks
+
+//Drag the tasks to re-order them//
+
+&lt;&lt;list-tagged-draggable tag:&quot;task&quot; subFilter:&quot;!has[draft.of]!tag[done]&quot; itemTemplate:&quot;TaskManagementExampleDraggableTemplate&quot; emptyMessage:&quot;You don't have any active tasks&quot;&gt;&gt;
+
+! Completed tasks
+
+//(Listed in reverse order of completion)//
+
+&lt;$list filter=&quot;[!has[draft.of]tag[task]tag[done]sort[created]]&quot;&gt;
+&lt;div&gt;
+&lt;$checkbox tag=&quot;done&quot;&gt; ~~&lt;$link to={{!!title}}&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/$link&gt;~~&lt;/$checkbox&gt;
+&lt;/div&gt;
+&lt;/$list&gt;
+</pre>
 </div>
 <div created="20200418054051549" creator="kk" modified="20200418221508182" modifier="kk" tags="TDL" title="TDL - 18 April 2020">
 <pre>[[18 April 2020]]

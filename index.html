@@ -13157,8 +13157,8 @@ html body.tc-body {
 <div created="20200416005711236" creator="kk" modified="20200418045558122" modifier="kk" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Shadows</pre>
 </div>
-<div created="20200416003926822" creator="kk" modified="20200422215314100" modifier="kk" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Recent</pre>
+<div created="20200416003926822" creator="kk" modified="20200422215750521" modifier="kk" title="$:/state/tab/sidebar--595412856">
+<pre>Table of Contents</pre>
 </div>
 <div created="20200417194526591" creator="kk" modified="20200417194532159" modifier="kk" title="$:/state/tab/sidebar-1477732604">
 <pre>$:/core/ui/SideBar/Open</pre>
@@ -13181,7 +13181,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div created="20200422213056127" creator="kk" list="$:/ControlPanel Tasks [[22 April 2020]] [[TDL - 22 April 2020]]" modified="20200422215700916" modifier="kk" title="$:/StoryList">
+<div created="20200422213056127" creator="kk" list="Books $:/ControlPanel Tasks [[22 April 2020]] [[TDL - 22 April 2020]]" modified="20200422215757734" modifier="kk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -16432,8 +16432,21 @@ Discovered: [[20 April 2020]] via [[Dense Discovery]].
 <div created="20200422215048306" creator="kk" modified="20200422215612719" modifier="kk" tags="hide #template" title="TaskManagementExampleDraggableTemplate">
 <pre>&lt;$checkbox tag=&quot;Done&quot;&gt; &lt;$link to={{!!title}}&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/$link&gt;&lt;/$checkbox&gt;</pre>
 </div>
-<div created="20200422213756494" creator="kk" modified="20200422215615622" modifier="kk" tags="" title="Tasks">
-<pre>! Current Tasks
+<div created="20200422213756494" creator="kk" modified="20200422215941709" modifier="kk" tags="" title="Tasks">
+<pre>&lt;$button tooltip=&quot;New Task&quot;&gt;New Task
+&lt;$action-createtiddler
+$basetitle='New Task'
+text=''
+tags='Task'
+$savetitle='$:/.user/CreateBook!!newBook'
+/&gt;
+
+&lt;$action-sendmessage
+$message=&quot;tm-edit-tiddler&quot;
+$param={{$:/.user/CreateBook!!newBook}}/&gt;
+&lt;/$button&gt; 
+
+! Current Tasks
 
 &lt;&lt;list-tagged-draggable tag:&quot;Task&quot; subFilter:&quot;!has[draft.of]!tag[Done]&quot; itemTemplate:&quot;TaskManagementExampleDraggableTemplate&quot; emptyMessage:&quot;You don't have any active tasks&quot;&gt;&gt;
 

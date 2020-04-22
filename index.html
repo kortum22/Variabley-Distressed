@@ -1644,7 +1644,7 @@ placeholder=&quot;$placeholder$&quot;/&gt;
 &lt;/$reveal&gt;
 \end</pre>
 </div>
-<div created="20200417233012375" creator="kk" modified="20200422153302277" modifier="kk" newbook="New Book" title="$:/.user/CreateBook">
+<div created="20200417233012375" creator="kk" modified="20200422215944466" modifier="kk" newBook="New Task" newbook="New Book" title="$:/.user/CreateBook">
 <pre></pre>
 </div>
 <div commit="1a6be5ae09de1289727e9a981560d295cf8f361a" title="$:/build">
@@ -11304,7 +11304,7 @@ $button$
 &lt;/div&gt;
 </pre>
 </div>
-<div created="20200106211749103" creator="kk" modified="20200422215712267" modifier="kk" tags="tb" title="$:/DefaultTiddlers">
+<div created="20200106211749103" creator="kk" modified="20200422220032760" modifier="kk" tags="tb hide" title="$:/DefaultTiddlers">
 <pre>[tag[Journal]!sort[created]limit[1]]
 
 [tag[TDL]!sort[created]limit[1]]
@@ -13097,8 +13097,8 @@ html body.tc-body {
 <div created="20200416025516037" creator="kk" modified="20200417192434579" modifier="kk" title="$:/state/ShowPaletteEditor">
 <pre>yes</pre>
 </div>
-<div created="20200416005640554" creator="kk" modified="20200419212044586" modifier="kk" title="$:/state/sidebar">
-<pre>yes</pre>
+<div created="20200416005640554" creator="kk" modified="20200422215957747" modifier="kk" title="$:/state/sidebar">
+<pre>no</pre>
 </div>
 <div created="20200416004619463" creator="kk" modified="20200416004623967" modifier="kk" title="$:/state/styled-frames">
 <pre>yes</pre>
@@ -13181,7 +13181,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div created="20200422213056127" creator="kk" list="Books $:/ControlPanel Tasks [[22 April 2020]] [[TDL - 22 April 2020]]" modified="20200422215757734" modifier="kk" title="$:/StoryList">
+<div list="[[22 April 2020]] [[TDL - 22 April 2020]] Tasks" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -16432,11 +16432,11 @@ Discovered: [[20 April 2020]] via [[Dense Discovery]].
 <div created="20200422215048306" creator="kk" modified="20200422215612719" modifier="kk" tags="hide #template" title="TaskManagementExampleDraggableTemplate">
 <pre>&lt;$checkbox tag=&quot;Done&quot;&gt; &lt;$link to={{!!title}}&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/$link&gt;&lt;/$checkbox&gt;</pre>
 </div>
-<div created="20200422213756494" creator="kk" modified="20200422215941709" modifier="kk" tags="" title="Tasks">
+<div created="20200422213756494" creator="kk" modified="20200422220135140" modifier="kk" tags="" title="Tasks">
 <pre>&lt;$button tooltip=&quot;New Task&quot;&gt;New Task
 &lt;$action-createtiddler
 $basetitle='New Task'
-text=''
+text='&lt;&lt;now “DDMMMYYYY”&gt;&gt;'
 tags='Task'
 $savetitle='$:/.user/CreateBook!!newBook'
 /&gt;

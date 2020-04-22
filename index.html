@@ -947,6 +947,8 @@ Error message and password prompt
 
 <li>Field Notes</li>
 
+<li>Finish Exhalation</li>
+
 <li>Fleishman Is in Trouble by Taffy Brodesser-Akner</li>
 
 <li>Getting Things Done by David Allen</li>
@@ -13148,7 +13150,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div created="20200422213056127" creator="kk" list="Tasks [[22 April 2020]] [[TDL - 22 April 2020]]" modified="20200422213646950" modifier="kk" title="$:/StoryList">
+<div created="20200422213056127" creator="kk" list="[[Finish Exhalation]] Tasks [[22 April 2020]] [[TDL - 22 April 2020]]" modified="20200422213646950" modifier="kk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -15477,6 +15479,9 @@ I've had a [[Subscription]] to their Colors Sub for a really, really long time.
 
 I use a new book every month, written about [[here|https://tiv.today/2020/04/fieldnotesbook]].</pre>
 </div>
+<div created="20200422213826405" creator="kk" modified="20200422213843444" modifier="kk" tags="Task" title="Finish Exhalation">
+<pre></pre>
+</div>
 <div created="20200421233354449" creator="kk" modified="20200421233812608" modifier="kk" tags="Books Kindle Libby" title="Fleishman Is in Trouble by Taffy Brodesser-Akner">
 <pre>by [[Taffy Brodesser-Akner]]
 
@@ -16390,22 +16395,22 @@ Discovered: [[20 April 2020]] via [[Dense Discovery]].
 
 [img[https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e47425d1-6e7d-4317-b861-3776d2e64404/ddsbxa0-ea930eb5-38d1-42e6-9ec4-1433a8901615.jpg/v1/fill/w_1024,h_1366,q_75,strp/secret_of_life_by_tacosauceninja_ddsbxa0-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTM2NiIsInBhdGgiOiJcL2ZcL2U0NzQyNWQxLTZlN2QtNDMxNy1iODYxLTM3NzZkMmU2NDQwNFwvZGRzYnhhMC1lYTkzMGViNS0zOGQxLTQyZTYtOWVjNC0xNDMzYTg5MDE2MTUuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.0bZ8eONfMsewyJHGFbnCcke1q8NVYTR9u__5Rdskzi4]]</pre>
 </div>
-<div created="20200422213756494" creator="kk" modified="20200422213820346" modifier="kk" tags="" title="Tasks">
+<div created="20200422213756494" creator="kk" modified="20200422213931475" modifier="kk" tags="" title="Tasks">
 <pre>This is a version of the TaskManagementExample enhanced with the ability to drag and drop the task list to re-order them.
 
 ! Outstanding tasks
 
 //Drag the tasks to re-order them//
 
-&lt;&lt;list-tagged-draggable tag:&quot;task&quot; subFilter:&quot;!has[draft.of]!tag[done]&quot; itemTemplate:&quot;TaskManagementExampleDraggableTemplate&quot; emptyMessage:&quot;You don't have any active tasks&quot;&gt;&gt;
+&lt;&lt;list-tagged-draggable tag:&quot;Task&quot; subFilter:&quot;!has[draft.of]!tag[Done]&quot; itemTemplate:&quot;TaskManagementExampleDraggableTemplate&quot; emptyMessage:&quot;You don't have any active tasks&quot;&gt;&gt;
 
 ! Completed tasks
 
 //(Listed in reverse order of completion)//
 
-&lt;$list filter=&quot;[!has[draft.of]tag[task]tag[done]sort[created]]&quot;&gt;
+&lt;$list filter=&quot;[!has[draft.of]tag[Task]tag[Done]sort[created]]&quot;&gt;
 &lt;div&gt;
-&lt;$checkbox tag=&quot;done&quot;&gt; ~~&lt;$link to={{!!title}}&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/$link&gt;~~&lt;/$checkbox&gt;
+&lt;$checkbox tag=&quot;Done&quot;&gt; ~~&lt;$link to={{!!title}}&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/$link&gt;~~&lt;/$checkbox&gt;
 &lt;/div&gt;
 &lt;/$list&gt;
 </pre>

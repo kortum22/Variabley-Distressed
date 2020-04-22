@@ -1085,6 +1085,8 @@ Error message and password prompt
 
 <li>TacoSauceNinja - Art</li>
 
+<li>TaskManagementExampleDraggableTemplate</li>
+
 <li>Tasks</li>
 
 <li>TDL - 18 April 2020</li>
@@ -16420,11 +16422,11 @@ Discovered: [[20 April 2020]] via [[Dense Discovery]].
 
 [img[https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e47425d1-6e7d-4317-b861-3776d2e64404/ddsbxa0-ea930eb5-38d1-42e6-9ec4-1433a8901615.jpg/v1/fill/w_1024,h_1366,q_75,strp/secret_of_life_by_tacosauceninja_ddsbxa0-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTM2NiIsInBhdGgiOiJcL2ZcL2U0NzQyNWQxLTZlN2QtNDMxNy1iODYxLTM3NzZkMmU2NDQwNFwvZGRzYnhhMC1lYTkzMGViNS0zOGQxLTQyZTYtOWVjNC0xNDMzYTg5MDE2MTUuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.0bZ8eONfMsewyJHGFbnCcke1q8NVYTR9u__5Rdskzi4]]</pre>
 </div>
-<div created="20200422213756494" creator="kk" modified="20200422215046380" modifier="kk" tags="" title="Tasks">
-<pre>
-! Outstanding tasks
-
-//Drag the tasks to re-order them//
+<div created="20200422215048306" creator="kk" modified="20200422215116136" modifier="kk" tags="hide #template" title="TaskManagementExampleDraggableTemplate">
+<pre>&lt;$checkbox tag=&quot;done&quot;&gt; &lt;$link to={{!!title}}&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/$link&gt;&lt;/$checkbox&gt;</pre>
+</div>
+<div created="20200422213756494" creator="kk" modified="20200422215213006" modifier="kk" tags="" title="Tasks">
+<pre>! Current Tasks
 
 &lt;&lt;list-tagged-draggable tag:&quot;Task&quot; subFilter:&quot;!has[draft.of]!tag[Done]&quot; itemTemplate:&quot;TaskManagementExampleDraggableTemplate&quot; emptyMessage:&quot;You don't have any active tasks&quot;&gt;&gt;
 
@@ -16436,25 +16438,7 @@ Discovered: [[20 April 2020]] via [[Dense Discovery]].
 &lt;div&gt;
 &lt;$checkbox tag=&quot;Done&quot;&gt; ~~&lt;$link to={{!!title}}&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/$link&gt;~~&lt;/$checkbox&gt;
 &lt;/div&gt;
-&lt;/$list&gt;
-
-
-! Outstanding tasks
-
-&lt;$list filter=&quot;[!has[draft.of]tag[Task]!tag[Done]sort[created]]&quot;&gt;
-
-&lt;$checkbox tag=&quot;Done&quot;&gt; &lt;$link to={{!!title}}&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/$link&gt;&lt;/$checkbox&gt;
-
-&lt;/$list&gt;
-
-! Completed tasks
-
-&lt;$list filter=&quot;[!has[draft.of]tag[Task]tag[Done]sort[created]]&quot;&gt;
-
-&lt;$checkbox tag=&quot;Done&quot;&gt; ~~&lt;$link to={{!!title}}&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/$link&gt;~~&lt;/$checkbox&gt;
-
-&lt;/$list&gt;
-</pre>
+&lt;/$list&gt;</pre>
 </div>
 <div created="20200418054051549" creator="kk" modified="20200418221508182" modifier="kk" tags="TDL" title="TDL - 18 April 2020">
 <pre>[[18 April 2020]]

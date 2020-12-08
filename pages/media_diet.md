@@ -1,2 +1,8 @@
-## Test
-## Another test?
+---
+public: true
+---
+
+c: true
+---
+
+# Another test?

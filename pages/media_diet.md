@@ -1,5 +1,8 @@
-## Test
 ---
+public: true
+---
+
+--
 public: true
 ---
 

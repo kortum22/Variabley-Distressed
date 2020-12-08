@@ -1,6 +1,6 @@
 ---
 title: Media Diet
-published: true
+published: false
 permalink: media%20diet
 ---
 

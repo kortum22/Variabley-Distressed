@@ -1,5 +1,4 @@
-
-  {:journal-basis "daily" 
+{:journal-basis "daily" 
 
  :project {
            ;; Selected public notes can be published to https://logseq.com/your-project-or-your-username.
@@ -10,6 +9,8 @@
            ;; description supports both hiccup and html
            :description ""}
 
+ :all-pages-public? true
+ 
  ;; Currently, we support either "Markdown" or "Org".
  ;; This can overwrite your global preference so that
  ;; maybe your personal preferred format is Org but you'd

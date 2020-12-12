@@ -1,0 +1,5 @@
+---
+title: Weezer
+---
+
+## #[[Music]] #[[Artist]]

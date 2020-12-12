@@ -1,5 +1,0 @@
----
-title: Bandcamp
----
-
-## #Music Service

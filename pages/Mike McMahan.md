@@ -1,5 +1,0 @@
----
-title: Mike McMahan
----
-
-## #Person

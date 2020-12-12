@@ -1,5 +1,0 @@
----
-title: Batman - DC
----
-
-## #[[Comics]]

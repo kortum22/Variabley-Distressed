@@ -1,5 +1,0 @@
----
-title: Ted Chiang
----
-
-## #Author

@@ -1,5 +1,0 @@
----
-title: Cerebral Brewing
----
-
-## #[[Brewery]]

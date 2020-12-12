@@ -1,5 +1,0 @@
----
-title: Gratitude Journal
----
-
-## #Journal

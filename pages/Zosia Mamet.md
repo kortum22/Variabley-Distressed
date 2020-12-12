@@ -1,5 +1,0 @@
----
-title: Zosia Mamet
----
-
-## #Actor

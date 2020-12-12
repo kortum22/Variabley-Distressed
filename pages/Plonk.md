@@ -1,5 +1,0 @@
----
-title: Plonk
----
-
-## #Restaurant #Bozeman

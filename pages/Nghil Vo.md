@@ -1,5 +1,0 @@
----
-title: Nghil Vo
----
-
-## [[Author]]

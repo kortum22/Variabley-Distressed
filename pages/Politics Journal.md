@@ -1,5 +1,0 @@
----
-title: Politics Journal
----
-
-## #Journal

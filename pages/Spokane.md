@@ -1,5 +1,0 @@
----
-title: Spokane
----
-
-## #City #Washington

@@ -1,5 +1,0 @@
----
-title: Maplewood Brewing
----
-
-## #[[Brewery]]

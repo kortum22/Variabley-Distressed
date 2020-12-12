@@ -1,5 +1,0 @@
----
-title: Martha Wells
----
-
-## [[Author]]

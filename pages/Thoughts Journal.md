@@ -1,5 +1,0 @@
----
-title: Thoughts Journal
----
-
-## #Journal

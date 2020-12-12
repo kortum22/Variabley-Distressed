@@ -1,5 +1,0 @@
----
-title: Media Diet
----
-
-## #Log

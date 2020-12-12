@@ -1,5 +1,0 @@
----
-title: Gorillaz
----
-
-## #[[Music]] #[[Artist]]

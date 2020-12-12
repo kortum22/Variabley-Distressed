@@ -1,5 +1,0 @@
----
-title: Kaley Cuoco
----
-
-## #Actor

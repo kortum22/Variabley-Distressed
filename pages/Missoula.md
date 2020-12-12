@@ -1,5 +1,0 @@
----
-title: Missoula
----
-
-## #City #Montana

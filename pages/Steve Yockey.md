@@ -1,5 +1,0 @@
----
-title: Steve Yockey
----
-
-## #Writer

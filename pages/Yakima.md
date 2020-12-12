@@ -1,5 +1,0 @@
----
-title: Yakima
----
-
-## #City #Washington

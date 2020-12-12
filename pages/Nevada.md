@@ -1,5 +1,0 @@
----
-title: Nevada
----
-
-## #State

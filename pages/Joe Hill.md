@@ -1,5 +1,0 @@
----
-title: Joe Hill
----
-
-## #Author

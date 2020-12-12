@@ -1,5 +1,0 @@
----
-title: Omega Yeast
----
-
-## 

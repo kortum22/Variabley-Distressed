@@ -1,5 +1,0 @@
----
-title: Billings
----
-
-## #City #Montana

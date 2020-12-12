@@ -1,5 +1,0 @@
----
-title: Seattle
----
-
-## #City #Washington

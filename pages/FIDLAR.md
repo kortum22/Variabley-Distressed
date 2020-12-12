@@ -1,5 +1,0 @@
----
-title: FIDLAR
----
-
-## #[[Artist]] #[[Music]]

@@ -1,5 +1,0 @@
----
-title: Robin Wright
----
-
-## #Writer

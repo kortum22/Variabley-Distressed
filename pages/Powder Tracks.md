@@ -9,7 +9,7 @@ title: Powder Tracks
 
 ### Hops: 
 
-### AbV: 
+### AbV: 8.3%
 
 ### Rating: 4.25
 

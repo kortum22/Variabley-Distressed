@@ -22,3 +22,9 @@ title: Dumbbells
 #### 25 bent over row 15lb ea
 
 #### 10 bent over tri extension 15lb ea
+
+## Heavy routine
+### All of the above plus
+#### 15 wide shoulder presses
+
+#### 15 bent over flys

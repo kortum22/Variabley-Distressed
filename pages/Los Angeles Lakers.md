@@ -2,4 +2,4 @@
 title: Los Angeles Lakers
 ---
 
-## #NBA #Basketball #[[Los Angeles]]
+## #NBA #Basketball #[[Los Angeles]] #Team

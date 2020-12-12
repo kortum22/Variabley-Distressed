@@ -2,6 +2,6 @@
 title: Joe Biden
 ---
 
-## President-Elect with [[Kamala Harris]]
+## #2020 President-Elect with [[Kamala Harris]]
 
-## Vice President under [[Barack Obama]]
+## #2008 - #2012 - #2016 Vice President under [[Barack Obama]]

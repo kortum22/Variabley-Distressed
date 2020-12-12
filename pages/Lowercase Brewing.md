@@ -2,4 +2,4 @@
 title: Lowercase Brewing
 ---
 
-## #Brewery #Seattle
+## #Brewery #Seattle #Georgetown

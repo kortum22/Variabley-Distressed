@@ -6,11 +6,10 @@ title: Seekers after Light
 ### Brewery: [[Floodlands Brewing]]
 
 ### Beer Style: [[Saison]]
+#### Organic nectarines and Roussane and SauvBlanc grapes.
 
 ### Hops: 
 
-### AbV: 
+### AbV: 7.61%
 
 ### Rating: 4
-
-### Link: 

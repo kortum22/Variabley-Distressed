@@ -21,5 +21,5 @@ title: Stripe - Job
 #### https://stripe.com/jobs/listing/data-migrations-specialist/2274548
 
 ## [[November 21st, 2020]]
-### Program Manager, Marketing Technology
+### ~~Program Manager, Marketing Technology~~
 #### https://stripe.com/jobs/listing/program-manager-marketing-technology-/2456903?gh_src=73vnei

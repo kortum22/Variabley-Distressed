@@ -2,8 +2,6 @@
 title: Phil N.
 ---
 
-## #[[Person]] #[[Indieweb]] #[[TiddlyWiki]] #Roam
+## #[[Person]] #[[Indieweb]] #[[TiddlyWiki]]
 
 ## https://youneedastereo.com
-
-## https://roamresearch.com/#/app/twelvety_public/

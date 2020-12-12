@@ -13,110 +13,110 @@ title: Griffin - Job Search
 
 ##### Responsibilities
 :PROPERTIES:
-:ID:8cb86229-b91f-4309-af7a-76a1c3390f3e
+:ID:11f341e9-29bd-455e-9b23-6b421a77d7d5
 :END:
 ###### Support the company through the development, implementation, and operation of business applications.
 :PROPERTIES:
-:ID:7fd14783-17fb-47c5-bff2-02b109396233
+:ID:a25667d5-f562-43d6-ac3d-5de4d42c3be0
 :END:
 
 ###### Collaborate with internal and external partners to facilitate/implement updates, maintenance, and improvements of line of business systems
 :PROPERTIES:
-:ID:00a91d4c-b1b9-4fe1-b8a0-741f7721ab52
+:ID:35741175-0f7b-4beb-93fc-f895d6822f84
 :END:
 
 ###### Develop and maintain a strong understanding of our company operations, processes, procedures, and operational effectiveness
 :PROPERTIES:
-:ID:2f472a03-0e5b-4763-8e45-74dd15482cfb
+:ID:09d28c8c-3dd4-4901-8c49-210a47235b74
 :END:
 
 ###### Manage, participate, perform, and coordinate special projects and ad hoc analyses as requested
 :PROPERTIES:
-:ID:f928f694-a14b-4bd9-8072-3099044c555b
+:ID:690e59c3-50db-4aa1-a7e6-2e832c846a30
 :END:
 
 ###### Assimilate knowledge quickly in multiple line of business application
 :PROPERTIES:
-:ID:c57061b9-a4fa-40d1-81f3-f74acb17747a
+:ID:53f2cc24-a9a7-4e84-b685-f6338ef9f427
 :END:
 
 ###### Perform research and analysis of existing systems and business rules to establish requirements for new product features and maintenance of existing systems.
 :PROPERTIES:
-:ID:c5ff5247-9dba-41de-95cb-99efd93018c8
+:ID:b379fdd9-164d-4832-a1d5-bba61f776b74
 :END:
 
 ###### Strong project management skills
 :PROPERTIES:
-:ID:3ce49ef1-1768-4516-b3c6-f64481ba308f
+:ID:6948977d-b32e-49f0-b47f-aee913704c8f
 :END:
 
 ###### Serve as cross functional team lead
 :PROPERTIES:
-:ID:9685b5ce-57ed-4d12-83a9-1640ff7d0ba2
+:ID:eb61a245-aca2-4cdc-a081-caad0efa6152
 :END:
 
 ###### Coordinate interfacing platforms
 :PROPERTIES:
-:ID:3d63879b-00ef-4eab-9776-d0a7b777db98
+:ID:283cc6c8-3b69-426b-b6b7-c805448a48e3
 :END:
 
 ###### Constantly improve and maintain LOB Applications
 :PROPERTIES:
-:ID:33b616e0-2752-4c1d-bafe-d674f5f38602
+:ID:3f1016ce-e5c6-479c-ae19-f1f00c48ffd2
 :END:
 
 ##### Required Qualifications
 :PROPERTIES:
-:ID:984d98d5-edb3-41ba-aec5-0934045a426a
+:ID:ae478f14-ea6d-4c94-951d-80b63e5bd3d1
 :END:
 ###### Bachelor’s degree typically required, with a preference in Econ, Statistics, Computer Science/ IT, Business Management, or other quantitative field.
 :PROPERTIES:
-:ID:7d593702-fae7-48ce-b60d-15e1adf2b14d
+:ID:b003092e-b218-4b75-a7fb-12269be26717
 :END:
 
 ###### Minimum of 3 years in analyst or project management capacity
 :PROPERTIES:
-:ID:5ae09a5c-c141-427c-ad4a-10f1d27d2e4d
+:ID:e072253c-40f9-4eff-a967-d685f87ea300
 :END:
 
 ###### Knowledge and experience leveraging SQL to mine and analyze data
 :PROPERTIES:
-:ID:ad487e80-4788-42d1-adaa-00b3e7a4d579
+:ID:ce7aa702-2516-484d-862d-11cca4c170f1
 :END:
 
 ###### Windows 10 and Microsoft Office 365 Support and Troubleshooting experience
 :PROPERTIES:
-:ID:66f73045-6159-4b34-b049-0e0d22333984
+:ID:513ace44-6b72-4ca8-aec4-24389bb90c05
 :END:
 
 ###### Prior experience managing projects or initiatives, with proven ability to take ownership of work and deliverables
 :PROPERTIES:
-:ID:cc15b5e7-d86e-416f-ba48-422cd093e5af
+:ID:05f1f030-04c8-440c-8b30-6b446a3cb28e
 :END:
 
 ###### Strong analytical/problem solving and research skills
 :PROPERTIES:
-:ID:5b5ebe9d-ac2c-4f7c-b4c1-084ea707cefc
+:ID:845ddce6-ebee-4047-b13b-702becfd3fdd
 :END:
 
 ###### Ability to manage multiple tasks/projects and adapt to changing priorities
 :PROPERTIES:
-:ID:4a5ba930-9384-4054-97d5-6c9e224fb6d1
+:ID:9f3c483f-1d03-472e-9f0d-33b9f21ade0e
 :END:
 
 ###### Commitment to accuracy and quality of work
 :PROPERTIES:
-:ID:26cdf58d-946b-4046-ae92-5b9b092e3384
+:ID:cb564940-fe87-460b-aad9-b4d15fe2edb6
 :END:
 
 ###### Excellent Team player who is approachable and customer service orientated
 :PROPERTIES:
-:ID:db4d3b73-4e0b-45a0-aa5c-99a5b191ad6e
+:ID:886f8124-eb27-44ed-a880-67f9bf7f7d44
 :END:
 
 ###### Insurance experience or knowledge preferred, but not required
 :PROPERTIES:
-:ID:f6f415cc-1ad9-47ca-a2bd-faa4ad3ec378
+:ID:15b7e6d1-6720-485f-bf75-98f238798e8f
 :END:
 
 #### [[Griffin - HR Screening for BA]]

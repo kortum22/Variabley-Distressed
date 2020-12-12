@@ -16,5 +16,5 @@ title: Convoy - Job Search
 #### https://jobs.lever.co/convoy/7236fe08-b2ed-4b0a-a516-a100b87d389b?lever-origin=applied&lever-source%5B%5D=LinkedIn
 
 ## [[December 4th, 2020]]
-### Pricing Analyst
+### ~~Pricing Analyst~~
 #### https://jobs.lever.co/convoy/58aa5eb6-5fdb-411d-8dc2-680f5985d1dc?lever-origin=applied&lever-source%5B%5D=LinkedIn

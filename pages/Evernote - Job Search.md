@@ -13,3 +13,7 @@ title: Evernote - Job Search
 ## [[November 9th, 2020]]
 ### Systems Analyst, Commerce and Growth
 #### https://evernote.com/careers/job/?id=2409899&gh_jid=2409899
+
+## [[December 8th, 2020]]
+### Systems Analyst - Commerce and Growth
+#### https://www.linkedin.com/jobs/view/2205262692

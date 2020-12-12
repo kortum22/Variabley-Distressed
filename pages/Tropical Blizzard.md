@@ -2,17 +2,13 @@
 title: Tropical Blizzard
 ---
 
-## #Beer
-
 ## #[[Beer]]
 ### Brewery: [[Stoup Brewing]]
 
 ### Beer Style: [[Double IPA]]
 
-### Hops: 
+### Hops: [[HBC 692]] [[Mosaic]] [[Galaxy]]
 
-### AbV: 
+### AbV: 8%
 
 ### Rating: 4.25
-
-### Link: 

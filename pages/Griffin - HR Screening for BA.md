@@ -8,7 +8,7 @@ title: Griffin - HR Screening for BA
 
 ## Key Words
 :PROPERTIES:
-:ID:bbaa7d0e-3989-4125-84fa-b98f6cbb04d1
+:ID:315eb57b-0bb2-4c48-8c73-14815504bffa
 :END:
 ### Technology Operations
 
@@ -24,9 +24,9 @@ title: Griffin - HR Screening for BA
 
 ### LOB - line of business
 
-### {{{embed ((e43e1b8c-0665-4601-8614-f67790d3393c))}}}
+### {{{embed ((25fd501d-0897-46fc-b5ed-7db088657e2f))}}}
 
-### {{{embed ((e7b18464-b47d-428b-b43b-2e2882708591))}}}
+### {{{embed ((7fc29c5e-7850-4bd3-9692-38e996d0acde))}}}
 
 ### Wholesale Broker
 

@@ -34,108 +34,108 @@ title: Griffin - Interview Prep
 
 ## 
 
-## {{{embed ((bbaa7d0e-3989-4125-84fa-b98f6cbb04d1))}}}
+## {{{embed ((315eb57b-0bb2-4c48-8c73-14815504bffa))}}}
 
-## ((8cb86229-b91f-4309-af7a-76a1c3390f3e))
-### ((7fd14783-17fb-47c5-bff2-02b109396233))
+## ((11f341e9-29bd-455e-9b23-6b421a77d7d5))
+### ((a25667d5-f562-43d6-ac3d-5de4d42c3be0))
 
-### ((00a91d4c-b1b9-4fe1-b8a0-741f7721ab52))
+### ((35741175-0f7b-4beb-93fc-f895d6822f84))
 
-### ((2f472a03-0e5b-4763-8e45-74dd15482cfb))
+### ((09d28c8c-3dd4-4901-8c49-210a47235b74))
 
-### ((f928f694-a14b-4bd9-8072-3099044c555b))
+### ((690e59c3-50db-4aa1-a7e6-2e832c846a30))
 
-### ((c57061b9-a4fa-40d1-81f3-f74acb17747a))
+### ((53f2cc24-a9a7-4e84-b685-f6338ef9f427))
 
-### ((c5ff5247-9dba-41de-95cb-99efd93018c8))
+### ((b379fdd9-164d-4832-a1d5-bba61f776b74))
 
-### ((3ce49ef1-1768-4516-b3c6-f64481ba308f))
+### ((6948977d-b32e-49f0-b47f-aee913704c8f))
 
-### ((9685b5ce-57ed-4d12-83a9-1640ff7d0ba2))
+### ((eb61a245-aca2-4cdc-a081-caad0efa6152))
 
-### ((3d63879b-00ef-4eab-9776-d0a7b777db98))
+### ((283cc6c8-3b69-426b-b6b7-c805448a48e3))
 
-### ((33b616e0-2752-4c1d-bafe-d674f5f38602))
+### ((3f1016ce-e5c6-479c-ae19-f1f00c48ffd2))
 
-## ((984d98d5-edb3-41ba-aec5-0934045a426a))
-### ((7d593702-fae7-48ce-b60d-15e1adf2b14d))
+## ((ae478f14-ea6d-4c94-951d-80b63e5bd3d1))
+### ((b003092e-b218-4b75-a7fb-12269be26717))
 
-### ((5ae09a5c-c141-427c-ad4a-10f1d27d2e4d))
+### ((e072253c-40f9-4eff-a967-d685f87ea300))
 
-### ((ad487e80-4788-42d1-adaa-00b3e7a4d579))
+### ((ce7aa702-2516-484d-862d-11cca4c170f1))
 
-### ((66f73045-6159-4b34-b049-0e0d22333984))
+### ((513ace44-6b72-4ca8-aec4-24389bb90c05))
 
-### ((cc15b5e7-d86e-416f-ba48-422cd093e5af))
+### ((05f1f030-04c8-440c-8b30-6b446a3cb28e))
 
-### ((5b5ebe9d-ac2c-4f7c-b4c1-084ea707cefc))
+### ((845ddce6-ebee-4047-b13b-702becfd3fdd))
 
-### ((4a5ba930-9384-4054-97d5-6c9e224fb6d1))
+### ((9f3c483f-1d03-472e-9f0d-33b9f21ade0e))
 
-### ((26cdf58d-946b-4046-ae92-5b9b092e3384))
+### ((cb564940-fe87-460b-aad9-b4d15fe2edb6))
 
-### ((db4d3b73-4e0b-45a0-aa5c-99a5b191ad6e))
+### ((886f8124-eb27-44ed-a880-67f9bf7f7d44))
 
-### ((f6f415cc-1ad9-47ca-a2bd-faa4ad3ec378))
+### ((15b7e6d1-6720-485f-bf75-98f238798e8f))
 
 ## [[SQL]] Notes
 :PROPERTIES:
-:ID:ea1643ea-1516-4bec-a0aa-aa9f79a5605b
+:ID:81d08117-1ea8-42f3-a028-08872b671745
 :END:
 ### CREATE TABLE 
 :PROPERTIES:
-:ID:21846311-88fd-4b48-a830-b3a040ad00ed
+:ID:bd863ccc-8246-40e6-ae40-a7ff5cc3ade9
 :END:
 #### id INTEGER PRIMARY KEY
 :PROPERTIES:
-:ID:1ee439f2-1ab3-44cd-b85d-a8febcbff936
+:ID:d8fd1206-cfaf-484d-a283-0f64693ffec2
 :END:
 
 ### INSTERT INTO
 :PROPERTIES:
-:ID:74dbd68c-5788-44c8-9d46-f64b51fa5c69
+:ID:ab159c36-4222-4ff6-8f7f-0c0eb6ba963e
 :END:
 
 ### SELECT * FROM
 :PROPERTIES:
-:ID:8a5cbd08-c034-4214-9a8d-76072f9e4535
+:ID:983ac572-4c5e-4488-8457-9c375eca620d
 :END:
 #### WHERE (conditions of rows)
 :PROPERTIES:
-:ID:2a210c6f-c6a1-45dc-9204-346f73b1fb98
+:ID:c2ccaeb7-f753-41cd-869a-43a31ea1ad23
 :END:
 
 #### ORDER BY
 :PROPERTIES:
-:ID:f5cef8c2-7da7-495f-80ad-6524ebed8092
+:ID:43bcf1ea-ff32-46cc-828c-707669e61adf
 :END:
 
 #### SUM, MIN, MAX, COUNT, AVG
 :PROPERTIES:
-:ID:4ea5f2e6-4bb4-448f-81bc-596d5c3096f5
+:ID:7447f6f2-6d95-40f4-bd09-da71732f9c78
 :END:
 
 #### GROUP BY
 :PROPERTIES:
-:ID:e1b70c4c-bd89-46f5-8c84-6a9ad98ae3ae
+:ID:12c55f79-5bea-4943-8720-7a335c627b6d
 :END:
 
 #### AND/OR
 :PROPERTIES:
-:ID:e651b23d-fb09-4e92-9d39-304dfa52d257
+:ID:5c526abe-e9c5-48fb-88b5-e4a469c9d85c
 :END:
 
 #### IN
 :PROPERTIES:
-:ID:c155dd67-a0ad-486e-b5ad-bbfbdaaa3b5c
+:ID:3865052a-2b71-47bd-841c-ddaab01591c0
 :END:
 
 #### LIKE
 :PROPERTIES:
-:ID:35a360fd-ebfc-4ddb-b736-b87a90710b4d
+:ID:252ff784-d16a-4724-b3e6-7581f707520f
 :END:
 
 #### HAVING (conditions of groups)
 :PROPERTIES:
-:ID:394cec09-f2c4-4dbb-b116-e8b6247d19d4
+:ID:97cd5c78-3eae-4353-a6dc-dbadd4bb62db
 :END:

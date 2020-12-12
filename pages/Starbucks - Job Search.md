@@ -18,3 +18,6 @@ title: Starbucks - Job Search
 #### https://starbucks.taleo.net/careersection/1000222/jobdetail.ftl?job=200004151&lang=en&src=JB-12147
 
 #### oops, guess I already applied to this one...
+
+## [[December 9th, 2020]]
+### Barista

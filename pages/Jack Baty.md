@@ -2,6 +2,6 @@
 title: Jack Baty
 ---
 
-## #[[Person]] #[[Indieweb]] #[[TiddlyWiki]]
+## #[[Person]] #[[Indieweb]] #[[TiddlyWiki]] 
 
 ## https://rudimentarylathe.org

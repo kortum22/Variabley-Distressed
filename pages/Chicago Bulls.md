@@ -2,4 +2,4 @@
 title: Chicago Bulls
 ---
 
-## #NBA #Team #Chicago
+## #NBA #Team #Chicago #Basketball

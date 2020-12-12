@@ -38,7 +38,7 @@ title: CBRE - Job Search
 #### https://cbre.referrals.selectminds.com/jobs/systems-analyst-program-analyst-76498
 
 ## [[October 13th, 2020]]
-### Senior Business Operations Analyst
+### ~~Senior Business Operations Analyst~~
 #### https://cbre.referrals.selectminds.com/jobs/senior-business-operations-analyst-76849
 
 #### Job

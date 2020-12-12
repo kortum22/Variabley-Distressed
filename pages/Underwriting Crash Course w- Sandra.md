@@ -34,7 +34,7 @@ title: Underwriting Crash Course w/ Sandra
 
 ## E&S - (Excess & Surplus) difficult to price (vs Standard Market)
 :PROPERTIES:
-:ID:e7b18464-b47d-428b-b43b-2e2882708591
+:ID:7fc29c5e-7850-4bd3-9692-38e996d0acde
 :END:
 ### Unregulated paper
 
@@ -51,7 +51,7 @@ title: Underwriting Crash Course w/ Sandra
 
 ## MGA - Managing General Agent
 :PROPERTIES:
-:ID:e43e1b8c-0665-4601-8614-f67790d3393c
+:ID:25fd501d-0897-46fc-b5ed-7db088657e2f
 :END:
 ### insurance company agrees to give their paper to a different underwriting company
 

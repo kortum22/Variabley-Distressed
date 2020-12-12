@@ -7,9 +7,9 @@ title: HopHands
 
 ### Beer Style: [[Pale Ale]]
 
-### Hops: 
+### Hops: [[Amarillo]] [[Centennial]] [[Columbus]]
 
-### AbV: 
+### AbV: 5.5%
 
 ### Rating: 4
 

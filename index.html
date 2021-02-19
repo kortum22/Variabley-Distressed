@@ -13151,11 +13151,11 @@ html body.tc-body {
 <div created="20200422214247542" creator="kk" modified="20200422214248906" modifier="kk" title="$:/state/tab--219645345">
 <pre>$:/core/ui/ControlPanel/Plugins/Add/Plugins</pre>
 </div>
-<div created="20200417195703092" creator="kk" modified="20200417234457780" modifier="kk" title="$:/state/tab--565514155">
+<div created="20200417195703092" creator="kk" modified="20210219162745480" modifier="kk" title="$:/state/tab--565514155">
 <pre>About</pre>
 </div>
-<div created="20200417201504917" creator="kk" modified="20200417201517369" modifier="kk" title="$:/state/tab--84347281">
-<pre>$:/core/ui/DefaultSearchResultList</pre>
+<div created="20200417201504917" creator="kk" modified="20210219162759953" modifier="kk" title="$:/state/tab--84347281">
+<pre>$:/plugins/danielo515/ContextPlugin/visualizer</pre>
 </div>
 <div created="20200416004849635" creator="kk" modified="20200417194235862" modifier="kk" title="$:/state/tab--86143343">
 <pre>$:/core/ui/ControlPanel/Plugins/Installed/Plugins</pre>
@@ -13184,11 +13184,11 @@ html body.tc-body {
 <div created="20200416004310229" creator="kk" modified="20200417194359085" modifier="kk" title="$:/state/tab-738187504">
 <pre>$:/themes/jd/Mono/Config/SidebarSegments</pre>
 </div>
-<div created="20200416005711236" creator="kk" modified="20200418045558122" modifier="kk" title="$:/state/tab/moresidebar-1850697562">
-<pre>$:/core/ui/MoreSideBar/Shadows</pre>
+<div created="20200416005711236" creator="kk" modified="20210219162847612" modifier="kk" title="$:/state/tab/moresidebar-1850697562">
+<pre>$:/core/ui/MoreSideBar/All</pre>
 </div>
-<div created="20200416003926822" creator="kk" modified="20210218225701200" modifier="kk" title="$:/state/tab/sidebar--595412856">
-<pre>Table of Contents</pre>
+<div created="20200416003926822" creator="kk" modified="20210219162835168" modifier="kk" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/More</pre>
 </div>
 <div created="20200417194526591" creator="kk" modified="20200417194532159" modifier="kk" title="$:/state/tab/sidebar-1477732604">
 <pre>$:/core/ui/SideBar/Open</pre>
@@ -13211,7 +13211,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div created="20210219162657798" creator="kk" list="About [[Draft of '19 February 2021' by kk]] [[18 February 2021]] [[TDL - 22 April 2020]]" modified="20210219162717815" modifier="kk" title="$:/StoryList">
+<div created="20210219162657798" creator="kk" list=".hideList [[Table of Contents]] [[Draft of '19 February 2021' by kk]] [[18 February 2021]] [[TDL - 22 April 2020]]" modified="20210219162857395" modifier="kk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -13293,8 +13293,8 @@ html body.tc-body {
 <div created="20200417170823989" creator="kk" modified="20200417170826655" modifier="kk" title="$:/temp/list-search-example">
 <pre></pre>
 </div>
-<div created="20200417195305171" creator="kk" modified="20210219162716216" modifier="kk" title="$:/temp/menubarsearch">
-<pre>About</pre>
+<div created="20200417195305171" creator="kk" modified="20210219162758400" modifier="kk" title="$:/temp/menubarsearch">
+<pre>ToC</pre>
 </div>
 <div created="20200422213636064" creator="kk" modified="20200422213636064" modifier="kk" title="$:/temp/NewTagName">
 <pre></pre>
@@ -16577,7 +16577,7 @@ Finished: [[28 March 2020]]</pre>
 <div created="20200417180642130" creator="kk" modified="20200417180714820" modifier="kk" tags="Manifest" title="Subscription">
 <pre>Things with subscription linked are listed below in References.</pre>
 </div>
-<div caption="ToC" created="20200415215739764" creator="kk" is-dropdown="yes" list-before="$:/core/ui/SideBar/Open" modified="20200418234233270" modifier="kk" tags="$:/tags/SideBar hide" title="Table of Contents" type="">
+<div caption="ToC" created="20200415215739764" creator="kk" is-dropdown="yes" list-before="$:/core/ui/SideBar/Open" modified="20210219162923764" modifier="kk" tags="$:/tags/SideBar hide" title="Table of Contents" type="">
 <pre>&lt;&lt;tabs &quot;About .topicList .sourcesList&quot;&gt;&gt;
 
 &lt;$button tooltip=&quot;Start the Day&quot;&gt;Start the Day
@@ -16589,19 +16589,6 @@ Finished: [[28 March 2020]]</pre>
 &lt;$reveal type=&quot;match&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
 &lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalText&gt;&gt;/&gt;
 &lt;/$reveal&gt;
-&lt;/$wikify&gt;
-&lt;/$vars&gt;
-
-&lt;$vars journalTitleTemplate={{$:/config/NewTDL/Title}} journalTags={{$:/config/NewTDL/Tags!!tags}} journalText={{$:/config/NewTDL/Text}}&gt;
-&lt;$wikify name=&quot;journalTexx&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format=&lt;&lt;journalText&gt;&gt;/&gt;&quot;&quot;&quot;&gt;
-&lt;$wikify name=&quot;journalTitle&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;&quot;&quot;&quot;&gt;
-&lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
-&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text={{{ [&lt;journalTitle&gt;get[]] }}}/&gt;
-&lt;/$reveal&gt;
-&lt;$reveal type=&quot;match&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
-&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalTexx&gt;&gt;/&gt;
-&lt;/$reveal&gt;
-&lt;/$wikify&gt;
 &lt;/$wikify&gt;
 &lt;/$vars&gt;
 

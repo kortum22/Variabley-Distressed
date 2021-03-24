@@ -437,6 +437,8 @@ Error message and password prompt
 
 <li>$:/jab/DailyLinkPuller</li>
 
+<li>$:/jab/DailyLinkPuller 1</li>
+
 <li>$:/jab/DailyNotesFooterTemplate</li>
 
 <li>$:/jab/viewtemplate/book</li>
@@ -11462,11 +11464,18 @@ $button$
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
-<div created="20210324221401614" creator="kk" modified="20210324230106051" modifier="kk" tags="$:/tags/ViewTemplate" title="$:/jab/DailyLinkPuller">
+<div created="20210324221401614" creator="kk" modified="20210324230121171" modifier="kk" tags="$:/tags/ViewTemplate" title="$:/jab/DailyLinkPuller">
 <pre>&lt;$list filter=&quot;[all[current]tag[Link Log]]&quot; variable=ignore&gt;
 
 &lt;&lt;list-links filter:&quot;[sameday:created{!!created}!is[system]tag[Link]]&quot; emptyMessage:&quot;Nothing yet.&quot;&gt;&gt;
-{{!!text}}
+
+&lt;/$list&gt;</pre>
+</div>
+<div created="20210324231129867" creator="kk" modified="20210324231131815" modifier="kk" tags="$:/tags/ViewTemplate" title="$:/jab/DailyLinkPuller 1">
+<pre>&lt;$list filter=&quot;[all[current]tag[Link Log]]&quot; variable=ignore&gt;
+
+&lt;&lt;list-links filter:&quot;[sameday:created{!!created}!is[system]tag[Link]]&quot; emptyMessage:&quot;Nothing yet.&quot;&gt;&gt;
+
 &lt;/$list&gt;</pre>
 </div>
 <div created="20210324174430542" creator="kk" modified="20210324174546337" modifier="kk" tags="$:/tags/ViewTemplate" title="$:/jab/DailyNotesFooterTemplate">
@@ -13321,7 +13330,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div created="20210324221541674" creator="kk" list="$:/jab/DailyLinkPuller [[Table of Contents]] [[20210324152954 - Link]] [[24 March 2021 - Link Log]]" modified="20210324225809948" modifier="kk" title="$:/StoryList">
+<div created="20210324221541674" creator="kk" list="[[$:/jab/DailyLinkPuller 1]] $:/jab/DailyLinkPuller [[Table of Contents]] [[20210324152954 - Link]] [[24 March 2021 - Link Log]]" modified="20210324225809948" modifier="kk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">

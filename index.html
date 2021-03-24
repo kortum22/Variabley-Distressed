@@ -413,6 +413,8 @@ Error message and password prompt
 
 <li>$:/isEncrypted</li>
 
+<li>$:/jab/DailyNotesFooterTemplate</li>
+
 <li>$:/jab/viewtemplate/book</li>
 
 <li>$:/jab/viewtemplate/movie</li>
@@ -11396,6 +11398,14 @@ $button$
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
+<div created="20210324174430542" creator="kk" modified="20210324174449581" modifier="kk" tags="$:/tags/ViewTemplate" title="$:/jab/DailyNotesFooterTemplate">
+<pre>&lt;$list filter=&quot;[all[current]tag[Daily Note]]&quot; variable=ignore&gt;
+
+!!! Also on &lt;$view field=&quot;created&quot; format=&quot;date&quot; template=&quot;DDth MMM YYYY&quot;/&gt;:
+
+&lt;&lt;list-links filter:&quot;[sameday:created{!!created}!is[system]!tag[Daily Note]]&quot; emptyMessage:&quot;Nothing yet.&quot;&gt;&gt;
+&lt;/$list&gt;</pre>
+</div>
 <div created="20200417233254803" creator="kk" modified="20200417233814662" modifier="kk" tags="" title="$:/jab/viewtemplate/book">
 <pre>* &lt;a href={{!!goodreads}}&gt;Goodreads&lt;/a&gt;
 * Started reading: {{!!startdate}}
@@ -13240,7 +13250,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div created="20210324171555180" creator="kk" list="[[24 March 2021 - Link Log]] [[24 March 2021 - Wellness Log]] [[24 March 2021 - Media Diet]] [[24 March 2021]] [[19 March 2021]] [[15 March 2021]] [[24 February 2021]] [[20 February 2021]]" modified="20210324172756577" modifier="kk" title="$:/StoryList">
+<div list="$:/jab/DailyNotesFooterTemplate [[24 March 2021]] [[19 March 2021]] [[15 March 2021]] [[24 February 2021]] [[20 February 2021]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">

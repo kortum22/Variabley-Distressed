@@ -993,6 +993,8 @@ Error message and password prompt
 
 <li>Devastator by Phantom Planet</li>
 
+<li>Draft of 'Books' by kk</li>
+
 <li>Eraserhead</li>
 
 <li>Everything Bad is Good for You by Steven Johnson</li>
@@ -13225,10 +13227,10 @@ html body.tc-body {
 <div created="20200416004310229" creator="kk" modified="20200417194359085" modifier="kk" title="$:/state/tab-738187504">
 <pre>$:/themes/jd/Mono/Config/SidebarSegments</pre>
 </div>
-<div created="20200416005711236" creator="kk" modified="20210324171653990" modifier="kk" title="$:/state/tab/moresidebar-1850697562">
-<pre>$:/core/ui/MoreSideBar/All</pre>
+<div created="20200416005711236" creator="kk" modified="20210324184123166" modifier="kk" title="$:/state/tab/moresidebar-1850697562">
+<pre>$:/core/ui/MoreSideBar/System</pre>
 </div>
-<div created="20200416003926822" creator="kk" modified="20210324183133739" modifier="kk" title="$:/state/tab/sidebar--595412856">
+<div created="20200416003926822" creator="kk" modified="20210324184027811" modifier="kk" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/More</pre>
 </div>
 <div created="20200417194526591" creator="kk" modified="20200417194532159" modifier="kk" title="$:/state/tab/sidebar-1477732604">
@@ -13252,7 +13254,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div created="20210324183135727" creator="kk" list="[[Table of Contents]] [[24 March 2021]] [[19 March 2021]] [[15 March 2021]] [[24 February 2021]] [[20 February 2021]]" modified="20210324183137636" modifier="kk" title="$:/StoryList">
+<div created="20210324183135727" creator="kk" list="$:/.user/CreateBook [[Table of Contents]] [[Draft of 'Books' by kk]] [[24 March 2021]] [[19 March 2021]] [[15 March 2021]] [[24 February 2021]] [[20 February 2021]]" modified="20210324184155439" modifier="kk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -15776,6 +15778,30 @@ The three strategies that follow in this rule are designed to grow your comfort 
 <div created="20200421003553251" creator="kk" modified="20200421003758530" modifier="kk" tags="Album Music" title="Devastator by Phantom Planet">
 <pre>Forthcoming album from [[Phantom Planet]], a band I used to be a huge fan of, to be released on [[8 May 2020]]. </pre>
 </div>
+<div created="20200417231518181" creator="kk" draft.of="Books" draft.title="Books" modified="20210324184108711" modifier="kk" tags="List" title="Draft of 'Books' by kk">
+<pre>&lt;$button tooltip=&quot;Add a book&quot;&gt;Add a book
+&lt;$action-createtiddler
+$basetitle='New Book'
+text='by 
+
+Started: 
+
+Finished: 
+
+---
+
+!! Quotes'
+tags='Books'
+$savetitle='$:/.user/CreateBook!!newBook'
+/&gt;
+
+&lt;$action-sendmessage
+$message=&quot;tm-edit-tiddler&quot;
+$param={{$:/.user/CreateBook!!newBook}}/&gt;
+&lt;/$button&gt;
+
+&lt;&lt;list-links &quot;[tag[Books]!sort[created]]&quot;&gt;&gt;</pre>
+</div>
 <div created="20200417230743608" creator="kk" modified="20200417230841414" modifier="kk" tags="Movies [[Criterion Channel]]" title="Eraserhead">
 <pre>Watched on [[Criterion Channel]] on [[3 April 2020]].
 
@@ -16742,7 +16768,7 @@ Finished: [[28 March 2020]]</pre>
 <div created="20200417180642130" creator="kk" modified="20200417180714820" modifier="kk" tags="Manifest" title="Subscription">
 <pre>Things with subscription linked are listed below in References.</pre>
 </div>
-<div caption="ToC" created="20200415215739764" creator="kk" is-dropdown="yes" list-before="$:/core/ui/SideBar/Open" modified="20210324184012605" modifier="kk" tags="$:/tags/SideBar hide" title="Table of Contents" type="">
+<div caption="ToC" created="20200415215739764" creator="kk" is-dropdown="yes" list-before="$:/core/ui/SideBar/Open" modified="20210324184257672" modifier="kk" tags="$:/tags/SideBar hide" title="Table of Contents" type="">
 <pre>&lt;&lt;tabs &quot;About .topicList .sourcesList&quot;&gt;&gt;
 
 &lt;$button tooltip=&quot;Start the Day&quot;&gt;Start the Day
@@ -16757,16 +16783,26 @@ Finished: [[28 March 2020]]</pre>
 &lt;/$wikify&gt;
 &lt;/$vars&gt;
 
-&lt;$vars journalTitleTemplate={{$:/config/NewJournal/Title}} journalTags={{$:/config/NewJournal/Tags!!tags}} journalText={{$:/config/NewJournal/Text}}&gt;
-&lt;$wikify name=&quot;journalTitle&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;&quot;&quot;Test&quot;&gt;
-&lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
-&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text={{{ [&lt;journalTitle&gt;get[]] }}}/&gt;
-&lt;/$reveal&gt;
-&lt;$reveal type=&quot;match&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
-&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalText&gt;&gt;/&gt;
-&lt;/$reveal&gt;
-&lt;/$wikify&gt;
-&lt;/$vars&gt;
+&lt;$action-createtiddler
+$basetitle='New Book'
+text='by 
+
+Started: 
+
+Finished: 
+
+---
+
+!! Quotes'
+tags='Books'
+$savetitle='$:/.user/CreateBook!!newBook'
+/&gt;
+
+&lt;$action-sendmessage
+$message=&quot;tm-edit-tiddler&quot;
+$param={{$:/.user/CreateBook!!newBook}}/&gt;
+
+
 
 
 &lt;/$button&gt;

@@ -1021,8 +1021,6 @@ Error message and password prompt
 
 <li>Devastator by Phantom Planet</li>
 
-<li>Draft of 'New' by kk</li>
-
 <li>Eraserhead</li>
 
 <li>Everything Bad is Good for You by Steven Johnson</li>
@@ -1112,8 +1110,6 @@ Error message and password prompt
 <li>N0S4A2 by Joe Hill</li>
 
 <li>New</li>
-
-<li>New 1</li>
 
 <li>Normal by Warren Ellis</li>
 
@@ -11428,9 +11424,8 @@ $button$
 &lt;/div&gt;
 </pre>
 </div>
-<div caption="{{$:/language/SideBar/Recent/Caption}}" created="20210324224939640" creator="kk" modified="20210324233133922" modifier="kk" tags="$:/tags/SideBar" title="$:/core/ui/SideBar/Recent">
-<pre>&lt;$macrocall $name=&quot;timeline&quot; format={{$:/language/RecentChanges/DateFormat}}/&gt;
-</pre>
+<div caption="{{$:/language/SideBar/Recent/Caption}}" created="20210324224939640" creator="kk" modified="20210324235828064" modifier="kk" tags="$:/tags/SideBar" title="$:/core/ui/SideBar/Recent">
+<pre>&lt;&lt;timeline limit:30 subfilter:&quot;!tag[hide]&quot;  format:&quot;DD MMM YYYY&quot; dateField:&quot;modified&quot;&gt;&gt;</pre>
 </div>
 <div created="20200106211749103" creator="kk" modified="20210324201452189" modifier="kk" tags="tb hide" title="$:/DefaultTiddlers">
 <pre>[tag[Journal]!sort[created]limit[2]]
@@ -13303,8 +13298,8 @@ html body.tc-body {
 <div created="20200416005711236" creator="kk" modified="20210324234321371" modifier="kk" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Explorer</pre>
 </div>
-<div created="20200416003926822" creator="kk" modified="20210324234544698" modifier="kk" title="$:/state/tab/sidebar--595412856">
-<pre>New</pre>
+<div created="20200416003926822" creator="kk" modified="20210324235757750" modifier="kk" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Recent</pre>
 </div>
 <div created="20200417194526591" creator="kk" modified="20200417194532159" modifier="kk" title="$:/state/tab/sidebar-1477732604">
 <pre>$:/core/ui/SideBar/Open</pre>
@@ -13330,7 +13325,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div created="20210324234149462" creator="kk" list="[[New 1]] [[Draft of 'New' by kk]] [[20210324152954 - Link]] $:/language/Snippets/MacroDefinition $:/jab/DailyLinkPuller" modified="20210324234740690" modifier="kk" title="$:/StoryList">
+<div created="20210324234149462" creator="kk" list="New $:/core/ui/SideBar/Recent [[20210324152954 - Link]] $:/language/Snippets/MacroDefinition $:/jab/DailyLinkPuller" modified="20210324235802793" modifier="kk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -15872,11 +15867,6 @@ The three strategies that follow in this rule are designed to grow your comfort 
 <div created="20200421003553251" creator="kk" modified="20200421003758530" modifier="kk" tags="Album Music" title="Devastator by Phantom Planet">
 <pre>Forthcoming album from [[Phantom Planet]], a band I used to be a huge fan of, to be released on [[8 May 2020]]. </pre>
 </div>
-<div created="20200415222731774" creator="kk" draft.of="New" draft.title="New" list-after="$:/core/ui/SideBar/Open" modified="20210324234916330" modifier="kk" tags="$:/tags/SideBar" title="Draft of 'New' by kk" type="text/vnd.tiddlywiki">
-<pre>''The most recent entries...''
-
-&lt;$macrocall $name=&quot;timeline&quot; format={{$:/language/RecentChanges/DateFormat}} dateField=&quot;created&quot; limit=&quot;9&quot;/&gt;</pre>
-</div>
 <div created="20200417230743608" creator="kk" modified="20200417230841414" modifier="kk" tags="Movies [[Criterion Channel]]" title="Eraserhead">
 <pre>Watched on [[Criterion Channel]] on [[3 April 2020]].
 
@@ -16493,13 +16483,10 @@ Gaiman tends to bring things alive, whether American Gods or Sandman, he anthrop
 
 Finished: 2015</pre>
 </div>
-<div created="20200415222731774" creator="kk" list-after="$:/core/ui/SideBar/Open" modified="20210324234852848" modifier="kk" tags="$:/tags/SideBar" title="New" type="text/vnd.tiddlywiki">
+<div created="20200415222731774" creator="kk" list-after="$:/core/ui/SideBar/Open" modified="20210324235745044" modifier="kk" tags="$:/tags/SideBar" title="New" type="text/vnd.tiddlywiki">
 <pre>''The most recent entries...''
 
-&lt;$macrocall $name=&quot;timeline&quot; format={{$:/language/RecentChanges/DateFormat}} dateField=&quot;created&quot; limit=&quot;9&quot;/&gt;</pre>
-</div>
-<div created="20210324234855736" creator="kk" modified="20210324235720386" modifier="kk" tags="" title="New 1">
-<pre>&lt;&lt;timeline limit:30 subfilter:&quot;!tag[hide]&quot;  format:&quot;DD MMM YYYY&quot; dateField:&quot;created&quot;&gt;&gt;</pre>
+&lt;&lt;timeline limit:15 subfilter:&quot;!tag[hide]&quot;  format:&quot;DD MMM YYYY&quot; dateField:&quot;created&quot;&gt;&gt;</pre>
 </div>
 <div created="20200422150712418" creator="kk" modified="20200422150752605" modifier="kk" tags="Books Kindle" title="Normal by Warren Ellis">
 <pre>by [[Warren Ellis]]

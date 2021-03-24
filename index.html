@@ -13226,8 +13226,8 @@ html body.tc-body {
 <div created="20200416005711236" creator="kk" modified="20210324171653990" modifier="kk" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/All</pre>
 </div>
-<div created="20200416003926822" creator="kk" modified="20210324172627854" modifier="kk" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Recent</pre>
+<div created="20200416003926822" creator="kk" modified="20210324174645685" modifier="kk" title="$:/state/tab/sidebar--595412856">
+<pre>Table of Contents</pre>
 </div>
 <div created="20200417194526591" creator="kk" modified="20200417194532159" modifier="kk" title="$:/state/tab/sidebar-1477732604">
 <pre>$:/core/ui/SideBar/Open</pre>
@@ -13250,7 +13250,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20200414201209188" modifier="k" title="$:/status/UserName">
 <pre>kk</pre>
 </div>
-<div list="$:/jab/DailyNotesFooterTemplate [[24 March 2021]] [[19 March 2021]] [[15 March 2021]] [[24 February 2021]] [[20 February 2021]]" title="$:/StoryList">
+<div created="20210324174654157" creator="kk" list="Books .hideList [[Table of Contents]] $:/jab/DailyNotesFooterTemplate [[24 March 2021]] [[19 March 2021]] [[15 March 2021]] [[24 February 2021]] [[20 February 2021]]" modified="20210324174713485" modifier="kk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -16735,7 +16735,7 @@ Finished: [[28 March 2020]]</pre>
 <div created="20200417180642130" creator="kk" modified="20200417180714820" modifier="kk" tags="Manifest" title="Subscription">
 <pre>Things with subscription linked are listed below in References.</pre>
 </div>
-<div caption="ToC" created="20200415215739764" creator="kk" is-dropdown="yes" list-before="$:/core/ui/SideBar/Open" modified="20210301154803302" modifier="kk" tags="$:/tags/SideBar hide" title="Table of Contents" type="">
+<div caption="ToC" created="20200415215739764" creator="kk" is-dropdown="yes" list-before="$:/core/ui/SideBar/Open" modified="20210324174914277" modifier="kk" tags="$:/tags/SideBar hide" title="Table of Contents" type="">
 <pre>&lt;&lt;tabs &quot;About .topicList .sourcesList&quot;&gt;&gt;
 
 &lt;$button tooltip=&quot;Start the Day&quot;&gt;Start the Day
@@ -16749,6 +16749,18 @@ Finished: [[28 March 2020]]</pre>
 &lt;/$reveal&gt;
 &lt;/$wikify&gt;
 &lt;/$vars&gt;
+
+&lt;$vars journalTitleTemplate={{$:/config/NewJournal/Title}} journalTags={{$:/config/NewJournal/Tags!!tags}} journalText={{$:/config/NewJournal/Text}}&gt;
+&lt;$wikify name=&quot;journalTitle&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;&quot;&quot;&quot;&gt;
+&lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
+&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text={{{ [&lt;journalTitle&gt;get[]] }}}/&gt;
+&lt;/$reveal&gt;
+&lt;$reveal type=&quot;match&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
+&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalText&gt;&gt;/&gt;
+&lt;/$reveal&gt;
+&lt;/$wikify&gt;
+&lt;/$vars&gt;
+
 
 &lt;/$button&gt;
 

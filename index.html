@@ -11505,11 +11505,10 @@ $button$
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
-<div created="20210324221401614" creator="kk" modified="20210325021719215" modifier="kvnk" tags="$:/tags/ViewTemplate" title="$:/jab/DailyLinkPuller">
+<div created="20210324221401614" creator="kk" modified="20210325021834841" modifier="kvnk" tags="$:/tags/ViewTemplate" title="$:/jab/DailyLinkPuller">
 <pre>&lt;$list filter=&quot;[all[current]tag[Link Log]]&quot; variable=ignore&gt;
 
-&lt;&lt;list-links &quot;[sameday:created{!!created}!is[system]tag[Link]]&quot; {{||$:/core/ui/ViewTemplate/body}}&gt;&gt;
-
+&lt;&lt;{{list-links &quot;[sameday:created{!!created}!is[system]tag[Link]]&quot;||$:/core/ui/ViewTemplate/body}}&gt;&gt;
 
 &lt;/$list&gt;</pre>
 </div>

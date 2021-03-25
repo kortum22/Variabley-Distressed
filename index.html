@@ -16917,55 +16917,8 @@ Finished: [[28 March 2020]]</pre>
 <div created="20200417180642130" creator="kk" modified="20200417180714820" modifier="kk" tags="Manifest" title="Subscription">
 <pre>Things with subscription linked are listed below in References.</pre>
 </div>
-<div caption="ToC" created="20200415215739764" creator="kk" is-dropdown="yes" list-before="$:/core/ui/SideBar/Open" modified="20210325004719271" modifier="kvnk" tags="$:/tags/SideBar hide" title="Table of Contents" type="">
-<pre>&lt;&lt;tabs &quot;About Buttons .topicList .sourcesList&quot;&gt;&gt;
-
-&lt;$button tooltip=&quot;Start the Day&quot;&gt;Start the Day
-&lt;$vars journalTitleTemplate={{$:/config/NewJournal/Title}} journalTags={{$:/config/NewJournal/Tags!!tags}} journalText={{$:/config/NewJournal/Text}}&gt;
-&lt;$wikify name=&quot;journalTitle&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;&quot;&quot;&quot;&gt;
-&lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
-&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text={{{ [&lt;journalTitle&gt;get[]] }}}/&gt;
-&lt;/$reveal&gt;
-&lt;$reveal type=&quot;match&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
-&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalText&gt;&gt;/&gt;
-&lt;/$reveal&gt;
-&lt;/$wikify&gt;
-&lt;/$vars&gt;
-
-&lt;$vars journalTitleTemplate={{$:/config/NewMedia/Title}} journalTags={{$:/config/NewMedia/Tags!!tags}} journalText={{$:/config/NewMedia/Text}}&gt; 
-&lt;$wikify name=&quot;journalTitle&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;&quot;&quot;&quot;&gt; 
-&lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt; 
-&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text={{{ [&lt;journalTitle&gt;get[]] }}}/&gt;
-&lt;/$reveal&gt; 
-&lt;$reveal type=&quot;match&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt; 
-&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalText&gt;&gt;/&gt; 
-&lt;/$reveal&gt; 
-&lt;/$wikify&gt; 
-&lt;/$vars&gt; 
-
-&lt;$vars journalTitleTemplate={{$:/config/NewHealth/Title}} journalTags={{$:/config/NewHealth/Tags!!tags}} journalText={{$:/config/NewMedia/Text}}&gt; 
-&lt;$wikify name=&quot;journalTitle&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;&quot;&quot;&quot;&gt; 
-&lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt; 
-&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text={{{ [&lt;journalTitle&gt;get[]] }}}/&gt;
-&lt;/$reveal&gt; 
-&lt;$reveal type=&quot;match&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt; 
-&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalText&gt;&gt;/&gt; 
-&lt;/$reveal&gt; 
-&lt;/$wikify&gt; 
-&lt;/$vars&gt; 
-
-&lt;$vars journalTitleTemplate={{$:/config/NewLink/Title}} journalTags={{$:/config/NewLink/Tags!!tags}} journalText={{$:/config/NewMedia/Text}}&gt; 
-&lt;$wikify name=&quot;journalTitle&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;&quot;&quot;&quot;&gt; 
-&lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt; 
-&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text={{{ [&lt;journalTitle&gt;get[]] }}}/&gt;
-&lt;/$reveal&gt; 
-&lt;$reveal type=&quot;match&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt; 
-&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalText&gt;&gt;/&gt; 
-&lt;/$reveal&gt; 
-&lt;/$wikify&gt; 
-&lt;/$vars&gt; 
-
-&lt;/$button&gt;</pre>
+<div caption="ToC" created="20200415215739764" creator="kk" is-dropdown="yes" list-before="$:/core/ui/SideBar/Open" modified="20210325004850707" modifier="kvnk" tags="$:/tags/SideBar hide" title="Table of Contents" type="">
+<pre>&lt;&lt;tabs &quot;About Buttons .topicList .sourcesList&quot;&gt;&gt;</pre>
 </div>
 <div created="20200421032439862" creator="kk" modified="20200421202513145" modifier="kk" tags="Art Inspiration Collection" title="TacoSauceNinja - Art">
 <pre>https://www.deviantart.com/tacosauceninja 

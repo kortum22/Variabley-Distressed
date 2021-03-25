@@ -11451,18 +11451,14 @@ $button$
 <div caption="{{$:/language/SideBar/Recent/Caption}}" created="20210324224939640" creator="kk" modified="20210324235828064" modifier="kk" tags="$:/tags/SideBar" title="$:/core/ui/SideBar/Recent">
 <pre>&lt;&lt;timeline limit:30 subfilter:&quot;!tag[hide]&quot;  format:&quot;DD MMM YYYY&quot; dateField:&quot;modified&quot;&gt;&gt;</pre>
 </div>
-<div created="20210325011219303" creator="kvnk" modified="20210325012326136" modifier="kvnk" tags="$:/tags/ViewTemplate" title="$:/core/ui/ViewTemplate/body">
+<div created="20210325011219303" creator="kvnk" modified="20210325023320705" modifier="kvnk" tags="$:/tags/ViewTemplate" title="$:/core/ui/ViewTemplate/body">
 <pre>&lt;$reveal tag=&quot;div&quot; class=&quot;tc-tiddler-body&quot; type=&quot;nomatch&quot; stateTitle=&lt;&lt;folded-state&gt;&gt; text=&quot;hide&quot; retain=&quot;yes&quot; animate=&quot;yes&quot;&gt;
-
-&lt;$list filter=&quot;[all[current]!has[plugin-type]!field:hide-body[yes]]&quot;&gt;
 
 &lt;$transclude&gt;
 
 &lt;$transclude tiddler=&quot;$:/language/MissingTiddler/Hint&quot;/&gt;
 
 &lt;/$transclude&gt;
-
-&lt;/$list&gt;
 
 &lt;/$reveal&gt;
 </pre>
@@ -11505,12 +11501,12 @@ $button$
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
-<div created="20210324221401614" creator="kk" modified="20210325023146019" modifier="kvnk" tags="$:/tags/ViewTemplate" title="$:/jab/DailyLinkPuller">
+<div created="20210324221401614" creator="kk" modified="20210325023204238" modifier="kvnk" tags="$:/tags/ViewTemplate" title="$:/jab/DailyLinkPuller">
 <pre>&lt;$list filter=&quot;[all[current]tag[Link Log]]&quot; variable=ignore&gt;
 
 &lt;&lt;list-links &quot;[sameday:created{!!created}!is[system]tag[Link]]&quot;&gt;&gt;
 
-{{!!body}}
+{{&lt;&lt;currentTiddler&gt;&gt;&gt;}}
 
 &lt;/$list&gt;</pre>
 </div>
@@ -13369,7 +13365,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20210325003300590" modifier="kvn" title="$:/status/UserName">
 <pre>kvnk</pre>
 </div>
-<div created="20210325021138522" creator="kvnk" list="$:/jab/DailyLinkPuller [[24 March 2021]] [[19 March 2021]] [[24 March 2021 - Link Log]] [[20210324152954 - Link]] [[24 March 2021 - Health Log]] [[24 March 2021 - Media Diet]]" modified="20210325021439082" modifier="kvnk" title="$:/StoryList">
+<div created="20210325021138522" creator="kvnk" list="$:/core/ui/ViewTemplate/body $:/jab/DailyLinkPuller [[24 March 2021]] [[19 March 2021]] [[24 March 2021 - Link Log]] [[20210324152954 - Link]] [[24 March 2021 - Health Log]] [[24 March 2021 - Media Diet]]" modified="20210325023301610" modifier="kvnk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">

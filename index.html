@@ -273,6 +273,8 @@ Error message and password prompt
 
 <li>$:/build</li>
 
+<li>$:/config/AutoSave</li>
+
 <li>$:/config/DefaultMoreSidebarTab</li>
 
 <li>$:/config/DefaultSidebarTab</li>
@@ -1790,6 +1792,9 @@ placeholder=&quot;$placeholder$&quot;/&gt;
 <div commit="1a6be5ae09de1289727e9a981560d295cf8f361a" title="$:/build">
 <pre>Built from branch 'tiddlywiki-com' at commit 1a6be5ae09de1289727e9a981560d295cf8f361a of https://github.com/Jermolene/TiddlyWiki5.git at 2020-04-15 15:19:44 UTC
 </pre>
+</div>
+<div created="20210331214747787" creator="kvnk" modified="20210331214747787" modifier="kvnk" title="$:/config/AutoSave">
+<pre>no</pre>
 </div>
 <div created="20200411033013619" creator="kk" modified="20200414201841582" modifier="kk" title="$:/config/DefaultMoreSidebarTab">
 <pre>$:/core/ui/MoreSideBar/Tags</pre>
@@ -11493,8 +11498,9 @@ $button$
 &lt;/$reveal&gt;
 </pre>
 </div>
-<div created="20200106211749103" creator="kk" modified="20210331214619116" modifier="kvnk" tags="tb hide" title="$:/DefaultTiddlers">
+<div created="20200106211749103" creator="kk" modified="20210331214707876" modifier="kvnk" tags="tb hide" title="$:/DefaultTiddlers">
 <pre>[tag[Journal]!sort[created]limit[10]]
+
 </pre>
 </div>
 <div created="20200417164332125" creator="kk" modified="20200417165104209" modifier="kk" tags="Image $:/tags/Stylesheet" title="$:/favicon.ico" type="image/jpeg">
@@ -11571,7 +11577,7 @@ $button$
 &lt;/$button&gt;
 &lt;/$navigator&gt;</pre>
 </div>
-<div created="20200418060643197" creator="kk" modified="20210331214633950" modifier="kvnk" title="$:/language/DefaultNewTiddlerTitle">
+<div created="20200418060643197" creator="kk" modified="20210331214714318" modifier="kvnk" title="$:/language/DefaultNewTiddlerTitle">
 <pre>New TiddlyDoo</pre>
 </div>
 <div created="20190202142805411" creator="jd" modified="20200417192338908" modifier="kk" title="$:/palette">
@@ -13332,7 +13338,7 @@ html body.tc-body {
 <div created="20200422214247542" creator="kk" modified="20200422214248906" modifier="kk" title="$:/state/tab--219645345">
 <pre>$:/core/ui/ControlPanel/Plugins/Add/Plugins</pre>
 </div>
-<div created="20200417195703092" creator="kk" modified="20210331214559838" modifier="kvnk" title="$:/state/tab--565514155">
+<div created="20200417195703092" creator="kk" modified="20210325005404663" modifier="kvnk" title="$:/state/tab--565514155">
 <pre>About</pre>
 </div>
 <div created="20200417201504917" creator="kk" modified="20210324224601722" modifier="kk" title="$:/state/tab--84347281">
@@ -13356,10 +13362,10 @@ html body.tc-body {
 <div created="20200416005700816" creator="kk" modified="20200416005700816" modifier="kk" title="$:/state/tab-1528275152">
 <pre>$:/plugins/danielo515/ContextPlugin/visualizer</pre>
 </div>
-<div created="20200416003949736" creator="kk" modified="20210331214608990" modifier="kvnk" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Info</pre>
+<div created="20200416003949736" creator="kk" modified="20210331214746060" modifier="kvnk" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
-<div created="20200417171927472" creator="kk" modified="20210331214607919" modifier="kvnk" title="$:/state/tab-2065006209">
+<div created="20200417171927472" creator="kk" modified="20210331214701400" modifier="kvnk" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/General</pre>
 </div>
 <div created="20200416004310229" creator="kk" modified="20200417194359085" modifier="kk" title="$:/state/tab-738187504">
@@ -13368,8 +13374,8 @@ html body.tc-body {
 <div created="20200416005711236" creator="kk" modified="20210325000124712" modifier="kk" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/System</pre>
 </div>
-<div created="20200416003926822" creator="kk" modified="20210331214600588" modifier="kvnk" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Open</pre>
+<div created="20200416003926822" creator="kk" modified="20210327234742603" modifier="kvnk" title="$:/state/tab/sidebar--595412856">
+<pre>Table of Contents</pre>
 </div>
 <div created="20200417194526591" creator="kk" modified="20200417194532159" modifier="kk" title="$:/state/tab/sidebar-1477732604">
 <pre>$:/core/ui/SideBar/Open</pre>
@@ -13395,7 +13401,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20210325003300590" modifier="kvn" title="$:/status/UserName">
 <pre>kvnk</pre>
 </div>
-<div created="20210331214304774" creator="kvnk" list="[[31 March 2021]]" modified="20210331214605601" modifier="kvnk" title="$:/StoryList">
+<div created="20210331214658902" creator="kvnk" list="[[31 March 2021]]" modified="20210331214741622" modifier="kvnk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -15597,14 +15603,16 @@ A thing I really like about Roam and TiddlyWiki is I don't have to worry about f
 
 Looking at NotePlan now...</pre>
 </div>
-<div created="20210331213453882" creator="kvnk" modified="20210331213804857" modifier="kvnk" tags="Journal" title="31 March 2021">
+<div created="20210331213453882" creator="kvnk" modified="20210331214847045" modifier="kvnk" tags="Journal" title="31 March 2021">
 <pre>I've had no issues pretty much forgoing Roam recently. 
 
 I have noticed a lot of value from some of the more used/permanent pages (workout routines, magazines, wish list, mostly list type stuff) in Roam and being able to tinker with and share those, but those don't rely on any of Roam's functionality, so I should be able to bring them here. 
 
 Once that stuff is over here, I can continue to tinker with those and create new ones and have the occasional daily note still. 
 
-Definitely going to miss the outliner, but other than that I think we are good and settled. Feels good (at least for now while it lasts.)</pre>
+Definitely going to miss the outliner, but other than that I think we are good and settled. Feels good (at least for now while it lasts.)
+
+I'm guessing (based on nothing) some of the GitHub saving issues might be caused by TiddlyWiki trying to save automatically after every action and GitHub just says to fuck off. So I disabled automatic saving and will see how things go. Hopefully I remember....</pre>
 </div>
 <div created="20200504170320689" creator="kk" modified="20200505040923163" modifier="kk" tags="Journal" title="4 May 2020">
 <pre>Well... Roam is killing me this morning...

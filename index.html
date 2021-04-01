@@ -13403,7 +13403,7 @@ html body.tc-body {
 <div created="20200414201209087" creator="k" modified="20210325003300590" modifier="kvn" title="$:/status/UserName">
 <pre>kvnk</pre>
 </div>
-<div created="20210331223456083" creator="kvnk" list="[[31 March 2021]] [[29 March 2021]] [[28 March 2021]] [[27 March 2021]] [[26 March 2021]] [[25 March 2021]] [[24 March 2021]] [[19 March 2021]] [[15 March 2021]] [[24 February 2021]]" modified="20210331223456083" modifier="kvnk" title="$:/StoryList">
+<div created="20210401045101473" creator="kvnk" list="" modified="20210401045208362" modifier="kvnk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -13469,11 +13469,11 @@ html body.tc-body {
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;834&quot;
+            &quot;text&quot;: &quot;414&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;1194&quot;
+            &quot;text&quot;: &quot;896&quot;
         },
         &quot;$:/info/browser/language&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/language&quot;,
@@ -13485,7 +13485,7 @@ html body.tc-body {
 <div created="20200417170823989" creator="kk" modified="20200417170826655" modifier="kk" title="$:/temp/list-search-example">
 <pre></pre>
 </div>
-<div created="20200417195305171" creator="kk" modified="20210331214357342" modifier="kvnk" title="$:/temp/menubarsearch">
+<div created="20200417195305171" creator="kk" modified="20210401045207601" modifier="kvnk" title="$:/temp/menubarsearch">
 <pre>Old bu</pre>
 </div>
 <div created="20200422213636064" creator="kk" modified="20210325021447631" modifier="kvnk" title="$:/temp/NewTagName">
@@ -15330,7 +15330,7 @@ Still working through what I’m using the wiki for. Been adding a couple albums
 <div created="20210325000739728" creator="kk" modified="20210325000745502" modifier="kk" tags="Link hide" title="20210324170735960 - Link">
 <pre>Where We Are Now, Again - [[Servant of Pod with Nick Quah]] //// [overcast.fm](https://overcast.fm/+cIA28YW0Y)</pre>
 </div>
-<div created="20210325150529533" creator="kvnk" modified="20210331214550750" modifier="kvnk" tags="Old" title="20210325 - Old Buttons">
+<div created="20210325150529533" creator="kvnk" modified="20210401045248144" modifier="kvnk" tags="Old" title="20210325 - Old Buttons">
 <pre>&lt;$button tooltip=&quot;New Link&quot;&gt;New Link
 
 &lt;$vars journalTitleTemplate={{$:/config/LinkTiddler/Title}} journalTags={{$:/config/LinkTiddler/Tags!!tags}} journalText={{$:/config/LinkTiddler/Text}}&gt; 
@@ -15373,16 +15373,16 @@ Still working through what I’m using the wiki for. Been adding a couple albums
 &lt;/$wikify&gt; 
 &lt;/$vars&gt; 
 
-&lt;$vars journalTitleTemplate={{$:/config/NewJournal/Title}} journalTags={{$:/config/NewJournal/Tags!!tags}} journalText={{$:/config/NewJournal/Text}}&gt;
-&lt;$wikify name=&quot;journalTitle&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;&quot;&quot;&quot;&gt;
-&lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
+&lt;$vars journalTitleTemplate={{$:/config/NewMedia/Title}} journalTags={{$:/config/NewMedia/Tags!!tags}} journalText={{$:/config/NewMedia/Text}}&gt; 
+&lt;$wikify name=&quot;journalTitle&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;&quot;&quot;&quot;&gt; 
+&lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt; 
 &lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text={{{ [&lt;journalTitle&gt;get[]] }}}/&gt;
-&lt;/$reveal&gt;
-&lt;$reveal type=&quot;match&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
-&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalText&gt;&gt;/&gt;
-&lt;/$reveal&gt;
-&lt;/$wikify&gt;
-&lt;/$vars&gt;
+&lt;/$reveal&gt; 
+&lt;$reveal type=&quot;match&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt; 
+&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalText&gt;&gt;/&gt; 
+&lt;/$reveal&gt; 
+&lt;/$wikify&gt; 
+&lt;/$vars&gt; 
 
 &lt;/$button&gt;</pre>
 </div>
@@ -15666,7 +15666,7 @@ Finished: [[19 April 2020]]
 
 &quot;...men who waded into waters claiming they could swim should not need a raft.&quot;</pre>
 </div>
-<div created="20200415220201718" creator="kk" modified="20210331214529740" modifier="kvnk" tags="ASIB" title="About">
+<div created="20200415220201718" creator="kk" modified="20210401045301004" modifier="kvnk" tags="ASIB" title="About">
 <pre>Welcome to Humdrum Life, reincarnated.
 
 This is the wiki of [[Grandmaster|https://en.wikipedia.org/wiki/Thor%3A_Ragnarok]] Kevin [[Kovacs|https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel#Casting]], the unknown [[Eroscibopictaros|https://en.wikipedia.org/wiki/Chew_(comics)]], aka kvnk.
@@ -15679,16 +15679,16 @@ And So It Begins
 
 &lt;$button tooltip=&quot;Start the Day&quot;&gt;Start the Day
 
-&lt;$vars journalTitleTemplate={{$:/config/NewMedia/Title}} journalTags={{$:/config/NewMedia/Tags!!tags}} journalText={{$:/config/NewMedia/Text}}&gt; 
-&lt;$wikify name=&quot;journalTitle&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;&quot;&quot;&quot;&gt; 
-&lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt; 
+&lt;$vars journalTitleTemplate={{$:/config/NewJournal/Title}} journalTags={{$:/config/NewJournal/Tags!!tags}} journalText={{$:/config/NewJournal/Text}}&gt;
+&lt;$wikify name=&quot;journalTitle&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;&quot;&quot;&quot;&gt;
+&lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
 &lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text={{{ [&lt;journalTitle&gt;get[]] }}}/&gt;
-&lt;/$reveal&gt; 
-&lt;$reveal type=&quot;match&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt; 
-&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalText&gt;&gt;/&gt; 
-&lt;/$reveal&gt; 
-&lt;/$wikify&gt; 
-&lt;/$vars&gt; 
+&lt;/$reveal&gt;
+&lt;$reveal type=&quot;match&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
+&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalText&gt;&gt;/&gt;
+&lt;/$reveal&gt;
+&lt;/$wikify&gt;
+&lt;/$vars&gt;
 
 &lt;/$button&gt;
 
